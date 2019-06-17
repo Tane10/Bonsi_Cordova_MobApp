@@ -1,882 +1,979 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="./img/favicon.png" rel="shortcut icon"/>
-        <meta charset="utf-8"/>
-        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
-        <link href="./css/homepageLogin.css" rel="stylesheet" type="text/css"/>
-        <meta content="Launchpad by Anima" name="author">
-        </meta>
-    </head>
-    <body style="margin: 0;
+
+<head>
+    <link href="./img/favicon.png" rel="shortcut icon" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport" />
+    <link href="./css/homepageLogin.css" rel="stylesheet" type="text/css" />
+    <meta content="Launchpad by Anima" name="author">
+    </meta>
+</head>
+<body style="margin: 0;
  background: rgba(255, 255, 255, 1.0);">
-        <input id="anPageName" name="page" type="hidden" value="homepagelogin"/>
-        <style>
-            .homepagelogin-viaJ * {
-                box-sizing          : border-box;
-            }
-            .homepagelogin-viaJ {
-                pointer-events      : none;
-                overflow            : hidden;
-                width               : 100%;
-                min-width           : 375px;
-                height              : 100vh;
-                min-height          : 812px;
-                position            : relative;
-                overflow            : hidden;
-                margin              : 0px;
-                -webkit-font-smoothing: antialiased;
-                -moz-osx-font-smoothing: grayscale;
-                background-color    : rgba(255, 255, 255, 1.0);
-            }
-            .homepagelogin-viaJ .bgcolor {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 812px;
-                width               : 375px;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .bonsilogo {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 136px;
-                height              : 173px;
-                width               : 212px;
-                position            : absolute;
-                margin              : 0;
-                left                : 86px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                opacity             : 0.9;
-            }
-            .homepagelogin-viaJ .logincard-meBV {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 783px;
-                height              : 494px;
-                width               : 349px;
-                position            : absolute;
-                margin              : 0;
-                left                : 14px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .c1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 99.71%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .loginwith {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 6.07%;
-                height              : 26px;
-                width               : 24.93%;
-                position            : absolute;
-                margin              : 0;
-                left                : 37.54%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Black", Helvetica, Arial, serif;
-                font-size           : 17.0px;
-                color               : rgba(64, 64, 64, 1.0);
-                text-align          : left;
-                line-height         : 26.0px;
-            }
-            .homepagelogin-viaJ .logincard-meBV .loginbutton {
-                pointer-events      : auto;
-                background-color    : rgba(21, 200, 114, 0.6);
-                right               : 18.91%;
-                bottom              : 22.27%;
-                height              : 9.11%;
-                width               : 61.32%;
-                position            : absolute;
-                margin              : 0;
-                border-radius       : 22px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .passwordfield {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 39.68%;
-                height              : 15.59%;
-                width               : 87.11%;
-                position            : absolute;
-                margin              : 0;
-                left                : 6.45%;
-                overflow            : hidden;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .passwordfield .background {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .passwordfield .field {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 37px;
-                height              : calc(100.00% - 37px);
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .passwordfield .field .input {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .passwordfield .field .textpassword {
-                pointer-events      : auto;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : calc(50.00% - 8px);
-                height              : 17px;
-                width               : 24.34%;
-                position            : absolute;
-                margin              : 0;
-                left                : 8px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Helvetica", Helvetica, Arial, serif;
-                font-size           : 14.0px;
-                color               : rgba(215, 215, 215, 1.0);
-                text-align          : left;
-                line-height         : 17.0px;
-                border              : 0;
-                resize              : none;
-                padding             : 0;
-            }
-            .homepagelogin-viaJ .logincard-meBV .passwordfield .label {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : -6px;
-                height              : 26px;
-                width               : 26.32%;
-                position            : absolute;
-                margin              : 0;
-                left                : 108px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Black", Helvetica, Arial, serif;
-                font-size           : 17.0px;
-                color               : rgba(73, 73, 73, 1.0);
-                text-align          : left;
-                line-height         : 26.0px;
-            }
-            .homepagelogin-viaJ .logincard-meBV .usernamefield {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 17.81%;
-                height              : 15.59%;
-                width               : 87.11%;
-                position            : absolute;
-                margin              : 0;
-                left                : 6.45%;
-                overflow            : hidden;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .usernamefield .background {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .usernamefield .field {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 37px;
-                height              : calc(100.00% - 37px);
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .usernamefield .field .input {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .usernamefield .field .textusername {
-                pointer-events      : auto;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : calc(50.00% - 8px);
-                height              : 17px;
-                width               : 25.33%;
-                position            : absolute;
-                margin              : 0;
-                left                : 8px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Helvetica", Helvetica, Arial, serif;
-                font-size           : 14.0px;
-                color               : rgba(215, 215, 215, 1.0);
-                text-align          : left;
-                line-height         : 17.0px;
-                border              : 0;
-                resize              : none;
-                padding             : 0;
-            }
-            .homepagelogin-viaJ .logincard-meBV .usernamefield .label {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : -6px;
-                height              : 26px;
-                width               : 27.30%;
-                position            : absolute;
-                margin              : 0;
-                left                : 108px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Black", Helvetica, Arial, serif;
-                font-size           : 17.0px;
-                color               : rgba(73, 73, 73, 1.0);
-                text-align          : left;
-                line-height         : 26.0px;
-            }
-            .homepagelogin-viaJ .logincard-meBV .areyounew {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 13.16%;
-                height              : 19px;
-                width               : 24.07%;
-                position            : absolute;
-                margin              : 0;
-                left                : 37.97%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Muli", Helvetica, Arial, serif;
-                font-size           : 13.0px;
-                color               : rgba(0, 0, 0, 1.0);
-                text-align          : left;
-                line-height         : 19.0px;
-            }
-            .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                right               : 6.30%;
-                bottom              : 37.25%;
-                height              : 7.49%;
-                width               : 34.38%;
-                position            : absolute;
-                margin              : 0;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .areyounew1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 24.32%;
-                height              : 16px;
-                width               : 69.17%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Muli", Helvetica, Arial, serif;
-                font-size           : 11.0px;
-                color               : rgba(0, 0, 0, 1.0);
-                text-align          : left;
-                line-height         : 16.0px;
-            }
-            .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .showpassword {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 37px;
-                width               : 37px;
-                position            : absolute;
-                margin              : 0;
-                left                : 83px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .rectangle {
-                pointer-events      : none;
-                background-color    : rgba(0, 0, 0, 0.8);
-                right               : 2.50%;
-                top                 : 44.59%;
-                height              : 10.81%;
-                width               : 26.67%;
-                position            : absolute;
-                margin              : 0;
-                -ms-transform       : rotate(-24deg); /* IE 9 */
-                -webkit-transform   : rotate(-24deg); /* Chrome, Safari, Opera */
-                transform           : rotate(-24deg);
-            }
-            .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state0-to-state1 .showpassword {
-                pointer-events      : auto;
-            }
-            .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state1-to-state2 .rectangle {
-                transition          : all 0.2s ease-in-out 0.0s;
-                opacity             : 0;
-            }
-            .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state1-to-state2 .showpassword {
-                pointer-events      : auto;
-            }
-            .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state2-to-state1 .rectangle {
-                transition          : all 0.2s ease-in-out 0.0s;
-                opacity             : 1;
-            }
-            .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state2-to-state1 .showpassword {
-                pointer-events      : auto;
-            }
-            .homepagelogin-viaJ .logincard-meBV .login {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                right               : 40.40%;
-                bottom              : 19.64%;
-                height              : 54px;
-                width               : 15.47%;
-                position            : absolute;
-                margin              : 0;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                opacity             : 0.78;
-                font-family         : "Nunito-Black", Helvetica, Arial, serif;
-                font-size           : 20.0px;
-                color               : rgba(0, 0, 0, 1.0);
-                text-align          : left;
-                line-height         : 15.0px;
-            }
-            .homepagelogin-viaJ .title1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 31px;
-                height              : 92px;
-                width               : 152px;
-                position            : absolute;
-                margin              : 0;
-                left                : 113px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .homepagelogin-viaJ .title1 .bonsi1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : calc(50.00% - 46px);
-                height              : 91px;
-                width               : 99.34%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0.33%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                opacity             : 0.93;
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 60.0px;
-                color               : rgba(255, 255, 255, 1.0);
-                text-align          : left;
-                line-height         : 91.0px;
-            }
-            .homepagelogin-viaJ .title1 .bonsi {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : calc(50.00% - 46px);
-                height              : 91px;
-                width               : 99.34%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0.33%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                opacity             : 0.93;
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 60.0px;
-                color               : rgba(255, 255, 255, 1.0);
-                text-align          : left;
-                line-height         : 91.0px;
-            }
-            .homepagelogin-viaJ.state0-to-keyframe1 .logincard-meBV {
-                transition          : all 0.001s ease-in-out 0.0s;
-                top                 : 773px;
-                left                : 11px;
-            }
-            .homepagelogin-viaJ.keyframe1-to-keyframe2 .logincard-meBV {
-                transition          : all 0.5s ease-in-out 0.0s;
-                top                 : 314px;
-            }
-            .homepagelogin-viaJ.keyframe1-to-keyframe2 .logincard-meBV .c1 {
-                transition          : all 0.2s ease-in-out 0.0s;
-                top                 : calc(-1.21% + 6px);
-                left                : -0px;
-                height              : 102.43%;
-            }
-            .homepagelogin-viaJ.keyframe2-to-keyframe3 .logincard-meBV {
-                transition          : all 0.2s ease-in-out 0.0s;
-                top                 : 330px;
-            }
-            .homepagelogin-viaJ.keyframe2-to-keyframe3 .logincard-meBV .c1 {
-                transition          : all 0.2s ease-in-out 0.0s;
-                top                 : 0px;
-                left                : 0px;
-                height              : 100%;
-            }
-            .homepagelogin-viaJ.keyframe3-to-keyframe4 .logincard-meBV {
-                transition          : all 0.2s ease-in-out 0.0s;
-                top                 : 319px;
-            }
-            .homepagelogin-viaJ.state0 {
-                
-            }
-            .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state1 .showpassword {
-                pointer-events      : auto;
-            }
-            .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state2 .rectangle {
-                opacity             : 0.0057;
-            }
-            .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state2 .showpassword {
-                pointer-events      : auto;
-            }
-        </style>
-        <div id="Md91set">
-            <div class="homepagelogin homepagelogin-viaJ component keyframe1" data-initial-state="keyframe1">
-                <div style="width: 375px; height: 100%; position:relative; margin:auto;">
-                    <img class="bgcolor" src="./img/homepage-login-bgcolor.png">
-                        <img class="bonsilogo" src="./img/homepage-login-bonsi-logo@2x.png">
-                            <div class="logincard logincard-meBV component state1" data-initial-state="state1">
-                                <img class="c1" src="./img/homepage-login-c1.png">
-                                    <div class="loginwith">
-                                        Login with
-                                    </div>
-                                    <a href="userverfication.html">
-                                        <div class="loginbutton">
-                                        </div>
-                                    </a>
-                                    <div class="passwordfield">
-                                        <div class="background">
-                                        </div>
-                                        <div class="field">
-                                            <img class="input" src="./img/homepage-login-input.png">
-                                                <input class="textpassword" name="textPassword" placeholder="Password..."/>
-                                            </img>
-                                        </div>
-                                        <div class="label">
-                                            Password
-                                        </div>
-                                    </div>
-                                    <div class="usernamefield">
-                                        <div class="background">
-                                        </div>
-                                        <div class="field">
-                                            <img class="input" src="./img/homepage-login-input.png">
-                                                <input class="textusername" name="textUsername" placeholder="Username..."/>
-                                            </img>
-                                        </div>
-                                        <div class="label">
-                                            Username
-                                        </div>
-                                    </div>
-                                    <div class="areyounew">
-                                        Are you new?
-                                    </div>
-                                    <div class="showpsw showpsw-7DjC component state1" data-initial-state="state1">
-                                        <div class="areyounew1">
-                                            Show password
-                                        </div>
-                                        <img class="showpassword" src="./img/homepage-login-showpassword@2x.png">
-                                            <div class="rectangle">
-                                            </div>
-                                        </img>
-                                    </div>
-                                    <div class="login">
-                                        <span class="span1">
-                                            Login
-                                        </span>
-                                        <span class="span2">
-                                            <br/>
-                                        </span>
-                                    </div>
-                                </img>
-                            </div>
-                            <div class="title1">
-                                <div class="bonsi1">
-                                    Bonsi
-                                </div>
-                                <div class="bonsi">
-                                    Bonsi
-                                </div>
-                            </div>
+    <input id="anPageName" name="page" type="hidden" value="homepagelogin" />
+    <style>
+        .homepagelogin-viaJ * {
+            box-sizing: border-box;
+        }
+
+        .homepagelogin-viaJ {
+            pointer-events: none;
+            overflow: hidden;
+            width: 100%;
+            min-width: 375px;
+            height: 100vh;
+            min-height: 812px;
+            position: relative;
+            overflow: hidden;
+            margin: 0px;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            background-color: rgba(255, 255, 255, 1.0);
+        }
+
+        .homepagelogin-viaJ .bgcolor {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 0px;
+            height: 812px;
+            width: 375px;
+            position: absolute;
+            margin: 0;
+            left: 0px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .bonsilogo {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 136px;
+            height: 173px;
+            width: 212px;
+            position: absolute;
+            margin: 0;
+            left: 86px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+            opacity: 0.9;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 783px;
+            height: 494px;
+            width: 349px;
+            position: absolute;
+            margin: 0;
+            left: 14px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .c1 {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 0px;
+            height: 100%;
+            width: 99.71%;
+            position: absolute;
+            margin: 0;
+            left: 0px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .loginwith {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 6.07%;
+            height: 26px;
+            width: 24.93%;
+            position: absolute;
+            margin: 0;
+            left: 37.54%;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+            font-family: "Nunito-Black", Helvetica, Arial, serif;
+            font-size: 17.0px;
+            color: rgba(64, 64, 64, 1.0);
+            text-align: left;
+            line-height: 26.0px;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .loginbutton {
+            pointer-events: auto;
+            background-color: rgba(21, 200, 114, 0.6);
+            right: 18.91%;
+            bottom: 22.27%;
+            height: 9.11%;
+            width: 61.32%;
+            position: absolute;
+            margin: 0;
+            border-radius: 22px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .passwordfield {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 39.68%;
+            height: 15.59%;
+            width: 87.11%;
+            position: absolute;
+            margin: 0;
+            left: 6.45%;
+            overflow: hidden;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .passwordfield .background {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 0px;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            margin: 0;
+            left: 0px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .passwordfield .field {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 37px;
+            height: calc(100.00% - 37px);
+            width: 100%;
+            position: absolute;
+            margin: 0;
+            left: 0px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .passwordfield .field .input {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 0px;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            margin: 0;
+            left: 0px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .passwordfield .field .textpassword {
+            pointer-events: auto;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: calc(50.00% - 8px);
+            height: 17px;
+            width: 24.34%;
+            position: absolute;
+            margin: 0;
+            left: 8px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+            font-family: "Helvetica", Helvetica, Arial, serif;
+            font-size: 14.0px;
+            color: rgba(215, 215, 215, 1.0);
+            text-align: left;
+            line-height: 17.0px;
+            border: 0;
+            resize: none;
+            padding: 0;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .passwordfield .label {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: -6px;
+            height: 26px;
+            width: 26.32%;
+            position: absolute;
+            margin: 0;
+            left: 108px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+            font-family: "Nunito-Black", Helvetica, Arial, serif;
+            font-size: 17.0px;
+            color: rgba(73, 73, 73, 1.0);
+            text-align: left;
+            line-height: 26.0px;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .usernamefield {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 17.81%;
+            height: 15.59%;
+            width: 87.11%;
+            position: absolute;
+            margin: 0;
+            left: 6.45%;
+            overflow: hidden;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .usernamefield .background {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 0px;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            margin: 0;
+            left: 0px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .usernamefield .field {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 37px;
+            height: calc(100.00% - 37px);
+            width: 100%;
+            position: absolute;
+            margin: 0;
+            left: 0px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .usernamefield .field .input {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 0px;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            margin: 0;
+            left: 0px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .usernamefield .field .textusername {
+            pointer-events: auto;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: calc(50.00% - 8px);
+            height: 17px;
+            width: 25.33%;
+            position: absolute;
+            margin: 0;
+            left: 8px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+            font-family: "Helvetica", Helvetica, Arial, serif;
+            font-size: 14.0px;
+            color: rgba(215, 215, 215, 1.0);
+            text-align: left;
+            line-height: 17.0px;
+            border: 0;
+            resize: none;
+            padding: 0;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .usernamefield .label {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: -6px;
+            height: 26px;
+            width: 27.30%;
+            position: absolute;
+            margin: 0;
+            left: 108px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+            font-family: "Nunito-Black", Helvetica, Arial, serif;
+            font-size: 17.0px;
+            color: rgba(73, 73, 73, 1.0);
+            text-align: left;
+            line-height: 26.0px;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .areyounew {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            bottom: 13.16%;
+            height: 19px;
+            width: 24.07%;
+            position: absolute;
+            margin: 0;
+            left: 37.97%;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+            font-family: "Muli", Helvetica, Arial, serif;
+            font-size: 13.0px;
+            color: rgba(0, 0, 0, 1.0);
+            text-align: left;
+            line-height: 19.0px;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            right: 6.30%;
+            bottom: 37.25%;
+            height: 7.49%;
+            width: 34.38%;
+            position: absolute;
+            margin: 0;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .areyounew1 {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 24.32%;
+            height: 16px;
+            width: 69.17%;
+            position: absolute;
+            margin: 0;
+            left: 0px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+            font-family: "Muli", Helvetica, Arial, serif;
+            font-size: 11.0px;
+            color: rgba(0, 0, 0, 1.0);
+            text-align: left;
+            line-height: 16.0px;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .showpassword {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 0px;
+            height: 37px;
+            width: 37px;
+            position: absolute;
+            margin: 0;
+            left: 83px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .rectangle {
+            pointer-events: none;
+            background-color: rgba(0, 0, 0, 0.8);
+            right: 2.50%;
+            top: 44.59%;
+            height: 10.81%;
+            width: 26.67%;
+            position: absolute;
+            margin: 0;
+            -ms-transform: rotate(-24deg);
+            /* IE 9 */
+            -webkit-transform: rotate(-24deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(-24deg);
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state0-to-state1 .showpassword {
+            pointer-events: auto;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state1-to-state2 .rectangle {
+            transition: all 0.2s ease-in-out 0.0s;
+            opacity: 0;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state1-to-state2 .showpassword {
+            pointer-events: auto;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state2-to-state1 .rectangle {
+            transition: all 0.2s ease-in-out 0.0s;
+            opacity: 1;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state2-to-state1 .showpassword {
+            pointer-events: auto;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .login {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            right: 40.40%;
+            bottom: 19.64%;
+            height: 54px;
+            width: 15.47%;
+            position: absolute;
+            margin: 0;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+            opacity: 0.78;
+            font-family: "Nunito-Black", Helvetica, Arial, serif;
+            font-size: 20.0px;
+            color: rgba(0, 0, 0, 1.0);
+            text-align: left;
+            line-height: 15.0px;
+        }
+
+        .homepagelogin-viaJ .title1 {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: 31px;
+            height: 92px;
+            width: 152px;
+            position: absolute;
+            margin: 0;
+            left: 113px;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+        }
+
+        .homepagelogin-viaJ .title1 .bonsi1 {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: calc(50.00% - 46px);
+            height: 91px;
+            width: 99.34%;
+            position: absolute;
+            margin: 0;
+            left: 0.33%;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+            opacity: 0.93;
+            font-family: "Nunito-Regular", Helvetica, Arial, serif;
+            font-size: 60.0px;
+            color: rgba(255, 255, 255, 1.0);
+            text-align: left;
+            line-height: 91.0px;
+        }
+
+        .homepagelogin-viaJ .title1 .bonsi {
+            pointer-events: none;
+            background-color: rgba(255, 255, 255, 0.0);
+            top: calc(50.00% - 46px);
+            height: 91px;
+            width: 99.34%;
+            position: absolute;
+            margin: 0;
+            left: 0.33%;
+            -ms-transform: rotate(0deg);
+            /* IE 9 */
+            -webkit-transform: rotate(0deg);
+            /* Chrome, Safari, Opera */
+            transform: rotate(0deg);
+            opacity: 0.93;
+            font-family: "Nunito-Regular", Helvetica, Arial, serif;
+            font-size: 60.0px;
+            color: rgba(255, 255, 255, 1.0);
+            text-align: left;
+            line-height: 91.0px;
+        }
+
+        .homepagelogin-viaJ.state0-to-keyframe1 .logincard-meBV {
+            transition: all 0.001s ease-in-out 0.0s;
+            top: 773px;
+            left: 11px;
+        }
+
+        .homepagelogin-viaJ.keyframe1-to-keyframe2 .logincard-meBV {
+            transition: all 0.5s ease-in-out 0.0s;
+            top: 314px;
+        }
+
+        .homepagelogin-viaJ.keyframe1-to-keyframe2 .logincard-meBV .c1 {
+            transition: all 0.2s ease-in-out 0.0s;
+            top: calc(-1.21% + 6px);
+            left: -0px;
+            height: 102.43%;
+        }
+
+        .homepagelogin-viaJ.keyframe2-to-keyframe3 .logincard-meBV {
+            transition: all 0.2s ease-in-out 0.0s;
+            top: 330px;
+        }
+
+        .homepagelogin-viaJ.keyframe2-to-keyframe3 .logincard-meBV .c1 {
+            transition: all 0.2s ease-in-out 0.0s;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+        }
+
+        .homepagelogin-viaJ.keyframe3-to-keyframe4 .logincard-meBV {
+            transition: all 0.2s ease-in-out 0.0s;
+            top: 319px;
+        }
+
+        .homepagelogin-viaJ.state0 {}
+
+        .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state1 .showpassword {
+            pointer-events: auto;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state2 .rectangle {
+            opacity: 0.0057;
+        }
+
+        .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state2 .showpassword {
+            pointer-events: auto;
+        }
+    </style>
+    <div id="Md91set">
+        <div class="homepagelogin homepagelogin-viaJ component keyframe1" data-initial-state="keyframe1">
+            <div style="width: 375px; height: 100%; position:relative; margin:auto;">
+                <img class="bgcolor" src="./img/homepage-login-bgcolor.png">
+                <img class="bonsilogo" src="./img/homepage-login-bonsi-logo@2x.png">
+                <div class="logincard logincard-meBV component state1" data-initial-state="state1">
+                    <img class="c1" src="./img/homepage-login-c1.png">
+                    <div class="loginwith">
+                        Login with
+                    </div>
+                    <a href="userverfication.html">
+                        <div class="loginbutton">
+                        </div>
+                    </a>
+                    <div class="passwordfield">
+                        <div class="background">
+                        </div>
+                        <div class="field">
+                            <img class="input" src="./img/homepage-login-input.png">
+                            <input class="textpassword" name="textPassword" placeholder="Password..." />
+                            </img>
+                        </div>
+                        <div class="label">
+                            Password
+                        </div>
+                    </div>
+                    <div class="usernamefield">
+                        <div class="background">
+                        </div>
+                        <div class="field">
+                            <img class="input" src="./img/homepage-login-input.png">
+                            <input class="textusername" name="textUsername" placeholder="Username..." />
+                            </img>
+                        </div>
+                        <div class="label">
+                            Username
+                        </div>
+                    </div>
+                    <div class="areyounew">
+                        Are you new?
+                    </div>
+                    <div class="showpsw showpsw-7DjC component state1" data-initial-state="state1">
+                        <div class="areyounew1">
+                            Show password
+                        </div>
+                        <img class="showpassword" src="./img/homepage-login-showpassword@2x.png">
+                        <div class="rectangle">
+                        </div>
                         </img>
+                    </div>
+                    <div class="login">
+                        <span class="span1">
+                            Login
+                        </span>
+                        <span class="span2">
+                            <br />
+                        </span>
+                    </div>
                     </img>
                 </div>
+                <div class="title1">
+                    <div class="bonsi1">
+                        Bonsi
+                    </div>
+                    <div class="bonsi">
+                        Bonsi
+                    </div>
+                </div>
+                </img>
+                </img>
             </div>
         </div>
-        <script>
-            if (typeof String.prototype.endsWith !== 'function') {
-                String.prototype.endsWith = function(suffix) {
-                    return this.indexOf(suffix, this.length - suffix.length) !== -1;
-                };
-            }
-            if (!String.prototype.startsWith) {
-                String.prototype.startsWith = function(searchString, position) {
-                    position = position || 0;
-                    return this.indexOf(searchString, position) === position;
-                };
-            }
-            if (!Array.prototype.forEach) {
-                Array.prototype.forEach = function(callback) {
-                    var T, k;
-                    if (this == null) {
-                        throw new TypeError('this is null or not defined');
-                    }
-                    var O = Object(this);
-                    var len = O.length >>> 0;
-                    if (typeof callback !== 'function') {
-                        throw new TypeError(callback + ' is not a function');
-                    }
-                    if (arguments.length > 1) {
-                        T = arguments[1];
-                    }
-                    k = 0;
-                    while (k < len) {
-                        var kValue;
-                        if (k in O) {
-                            kValue = O[k];
-                            callback.call(T, kValue, k, O);
-                        }
-                        k++;
-                    }
-                };
-            }
-            function toArray(obj) {
-                var array = [];
-                for (var i = obj.length >>> 0; i--; ) {
-                    array[i] = obj[i];
+    </div>
+    <script>
+        if (typeof String.prototype.endsWith !== 'function') {
+            String.prototype.endsWith = function (suffix) {
+                return this.indexOf(suffix, this.length - suffix.length) !== -1;
+            };
+        }
+        if (!String.prototype.startsWith) {
+            String.prototype.startsWith = function (searchString, position) {
+                position = position || 0;
+                return this.indexOf(searchString, position) === position;
+            };
+        }
+        if (!Array.prototype.forEach) {
+            Array.prototype.forEach = function (callback) {
+                var T, k;
+                if (this == null) {
+                    throw new TypeError('this is null or not defined');
                 }
-                return array;
-            }
-            function addClass(object, className) {
-                object.classList ? object.classList.add(className) : object.className += ' ' + className;
-            }
-            function removeAllClassesButFirst(component, skipClass) {
-                var classList = component.classList;
-                var componentClass = classList.item(0);
-                var toRemove = [];
-                var beforeComponent = true;
-                toArray(classList).forEach(function(className) {
-                    beforeComponent = beforeComponent && className != 'component';
-                    if (className != skipClass && className != componentClass && className != 'component' && !beforeComponent) {
-                        toRemove.push(className);
-                    }
-                });
-                toRemove.forEach(function(className) {
-                    classList.remove(className);
-                });
-            }
-            function applyState(component, stateClass) {
-                var componentClass = component.classList.item(0);
-                component.className = componentClass;
-                component.classList.add(stateClass);
-            }
-            function isCurrentState(component, state) {
-                var classList = component.classList;
-                var rv = false;
-                toArray(classList).forEach(function(className) {
-                    if (className.endsWith(state)) {
-                        rv = true;
-                    }
-                });
-                return rv;
-            }
-            function whichTransitionEvent() {
-                var t, el = document.createElement("fakeelement");
-                var transitions = {
-                    "transition": "transitionend",
-                    "OTransition": "oTransitionEnd",
-                    "MozTransition": "transitionend",
-                    "WebkitTransition": "webkitTransitionEnd"
-                };
-                for (t in transitions) {
-                    if (el.style[t] !== undefined) {
-                        return transitions[t];
-                    }
+                var O = Object(this);
+                var len = O.length >>> 0;
+                if (typeof callback !== 'function') {
+                    throw new TypeError(callback + ' is not a function');
                 }
-            }
-            var transitionEvent = whichTransitionEvent();
-            function clickhomepageLoginviaJMd91set1Handler(event) {
-                var component = document.querySelector('.homepagelogin-viaJ');
-                if (isCurrentState(component, 'keyframe1')) {
-                    try {
-                        setTimeout(function() {
-                            var component = document.querySelector('.homepagelogin-viaJ');
-                            component.addEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe1tokeyframe2EndedHandler);
-                            removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
-                            addClass(component, 'keyframe2');
-                            addClass(component, 'keyframe1-to-keyframe2');
-                        }, 0);
-                    } catch (e) {
-                        console.log(e);
+                if (arguments.length > 1) {
+                    T = arguments[1];
+                }
+                k = 0;
+                while (k < len) {
+                    var kValue;
+                    if (k in O) {
+                        kValue = O[k];
+                        callback.call(T, kValue, k, O);
                     }
+                    k++;
+                }
+            };
+        }
+        function toArray(obj) {
+            var array = [];
+            for (var i = obj.length >>> 0; i--;) {
+                array[i] = obj[i];
+            }
+            return array;
+        }
+        function addClass(object, className) {
+            object.classList ? object.classList.add(className) : object.className += ' ' + className;
+        }
+        function removeAllClassesButFirst(component, skipClass) {
+            var classList = component.classList;
+            var componentClass = classList.item(0);
+            var toRemove = [];
+            var beforeComponent = true;
+            toArray(classList).forEach(function (className) {
+                beforeComponent = beforeComponent && className != 'component';
+                if (className != skipClass && className != componentClass && className != 'component' && !beforeComponent) {
+                    toRemove.push(className);
+                }
+            });
+            toRemove.forEach(function (className) {
+                classList.remove(className);
+            });
+        }
+        function applyState(component, stateClass) {
+            var componentClass = component.classList.item(0);
+            component.className = componentClass;
+            component.classList.add(stateClass);
+        }
+        function isCurrentState(component, state) {
+            var classList = component.classList;
+            var rv = false;
+            toArray(classList).forEach(function (className) {
+                if (className.endsWith(state)) {
+                    rv = true;
+                }
+            });
+            return rv;
+        }
+        function whichTransitionEvent() {
+            var t, el = document.createElement("fakeelement");
+            var transitions = {
+                "transition": "transitionend",
+                "OTransition": "oTransitionEnd",
+                "MozTransition": "transitionend",
+                "WebkitTransition": "webkitTransitionEnd"
+            };
+            for (t in transitions) {
+                if (el.style[t] !== undefined) {
+                    return transitions[t];
                 }
             }
-            function transitionhomepageLoginviaJMd91setkeyframe1tokeyframe2EndedHandler(event) {
-                if (event.target.className.trim() == 'logincard' || event.target.className.startsWith('logincard ')) {
-                    var component = document.querySelector('.homepagelogin-viaJ');
-                    component.removeEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe1tokeyframe2EndedHandler);
-                    setTimeout(function() {
-                        var component = document.querySelector('.homepagelogin-viaJ');
-                        component.addEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe2tokeyframe3EndedHandler);
-                        removeAllClassesButFirst(component, 'keyframe2-to-keyframe3');
-                        addClass(component, 'keyframe3');
-                        addClass(component, 'keyframe2-to-keyframe3');
-                    }, 0);
-                }
-            }
+        }
+        var transitionEvent = whichTransitionEvent();
+        function clickhomepageLoginviaJMd91set1Handler(event) {
             var component = document.querySelector('.homepagelogin-viaJ');
-            component.addEventListener('click', clickhomepageLoginviaJMd91set1Handler);
-            function resethomepageLoginviaJMd91set() {
-                var component = document.querySelector('.homepagelogin-viaJ');
-                if (!component) {
-                    return;
-                }
-                component.addEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe1tokeyframe2EndedHandler);
-                removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
-                addClass(component, 'keyframe2');
-                addClass(component, 'keyframe1-to-keyframe2');
-            }
-            function transitionhomepageLoginviaJMd91setkeyframe2tokeyframe3EndedHandler(event) {
-                if (event.target.className.trim() == 'c1' || event.target.className.startsWith('c1 ')) {
-                    var component = document.querySelector('.homepagelogin-viaJ');
-                    component.removeEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe2tokeyframe3EndedHandler);
-                    setTimeout(function() {
+            if (isCurrentState(component, 'keyframe1')) {
+                try {
+                    setTimeout(function () {
                         var component = document.querySelector('.homepagelogin-viaJ');
-                        component.addEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe3tokeyframe4EndedHandler);
-                        removeAllClassesButFirst(component, 'keyframe3-to-keyframe4');
-                        addClass(component, 'keyframe4');
-                        addClass(component, 'keyframe3-to-keyframe4');
+                        component.addEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe1tokeyframe2EndedHandler);
+                        removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+                        addClass(component, 'keyframe2');
+                        addClass(component, 'keyframe1-to-keyframe2');
                     }, 0);
+                } catch (e) {
+                    console.log(e);
                 }
             }
-            function transitionhomepageLoginviaJMd91setkeyframe3tokeyframe4EndedHandler(event) {
-                if (event.target.className.trim() == 'logincard' || event.target.className.startsWith('logincard ')) {
-                    var component = document.querySelector('.homepagelogin-viaJ');
-                    component.removeEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe3tokeyframe4EndedHandler);
-                }
-            }
-            function clickshowPsw7DjCMd91set1Handler(event) {
-                var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
-                if (isCurrentState(component, 'state1')) {
-                    try {
-                        setTimeout(function() {
-                            var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
-                            component.addEventListener(transitionEvent, transitionshowPsw7DjCMd91setstate1tostate2EndedHandler);
-                            removeAllClassesButFirst(component, 'state1-to-state2');
-                            addClass(component, 'state2');
-                            addClass(component, 'state1-to-state2');
-                        }, 0);
-                    } catch (e) {
-                        console.log(e);
-                    }
-                }
-            }
-            function transitionshowPsw7DjCMd91setstate1tostate2EndedHandler(event) {
-                if (event.target.className.trim() == 'rectangle' || event.target.className.startsWith('rectangle ')) {
-                    var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
-                    component.removeEventListener(transitionEvent, transitionshowPsw7DjCMd91setstate1tostate2EndedHandler);
-                }
-            }
-            child = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .showpassword');
-            if (child) {
-                child.addEventListener('click', clickshowPsw7DjCMd91set1Handler);
-                child.style['cursor'] = 'pointer';
-            } else {
-                console.log('Could not find element at: .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .showpassword');
-            }
-            function resetshowPsw7DjCMd91set() {
-                var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
-                if (!component) {
-                    return;
-                }
-                component.addEventListener(transitionEvent, transitionshowPsw7DjCMd91setstate1tostate2EndedHandler);
-                removeAllClassesButFirst(component, 'state1-to-state2');
-                addClass(component, 'state2');
-                addClass(component, 'state1-to-state2');
-            }
-            function clickshowPsw7DjCMd91set2Handler(event) {
-                var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
-                if (isCurrentState(component, 'state2')) {
-                    try {
-                        setTimeout(function() {
-                            var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
-                            component.addEventListener(transitionEvent, transitionshowPsw7DjCMd91setstate2tostate1EndedHandler);
-                            removeAllClassesButFirst(component, 'state2-to-state1');
-                            addClass(component, 'state1');
-                            addClass(component, 'state2-to-state1');
-                        }, 0);
-                    } catch (e) {
-                        console.log(e);
-                    }
-                }
-            }
-            function transitionshowPsw7DjCMd91setstate2tostate1EndedHandler(event) {
-                if (event.target.className.trim() == 'rectangle' || event.target.className.startsWith('rectangle ')) {
-                    var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
-                    component.removeEventListener(transitionEvent, transitionshowPsw7DjCMd91setstate2tostate1EndedHandler);
-                }
-            }
-            child = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .showpassword');
-            if (child) {
-                child.addEventListener('click', clickshowPsw7DjCMd91set2Handler);
-                child.style['cursor'] = 'pointer';
-            } else {
-                console.log('Could not find element at: .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .showpassword');
-            }
-            (function() {
+        }
+        function transitionhomepageLoginviaJMd91setkeyframe1tokeyframe2EndedHandler(event) {
+            if (event.target.className.trim() == 'logincard' || event.target.className.startsWith('logincard ')) {
                 var component = document.querySelector('.homepagelogin-viaJ');
-                var event = new Event('click');
-                component.dispatchEvent(event);
-            })();
-        </script>
-        <!-- Scripts -->
-        <script>
-            anima_isHidden = function(e) {
-                if (!(e instanceof HTMLElement)) return !1;
-                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
-                return !1;
-            };
-            anima_loadAsyncSrcForTag = function(tag) {
-                var elements = document.getElementsByTagName(tag);
-                var toLoad = [];
-                for (var i = 0; i < elements.length; i++) {
-                    var e = elements[i];
-                    var src = e.getAttribute("src");
-                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
-                    if (loaded) continue;
-                    var asyncSrc = e.getAttribute("anima-src");
-                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
-                    if (anima_isHidden(e)) continue;
-                    toLoad.push(e);
+                component.removeEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe1tokeyframe2EndedHandler);
+                setTimeout(function () {
+                    var component = document.querySelector('.homepagelogin-viaJ');
+                    component.addEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe2tokeyframe3EndedHandler);
+                    removeAllClassesButFirst(component, 'keyframe2-to-keyframe3');
+                    addClass(component, 'keyframe3');
+                    addClass(component, 'keyframe2-to-keyframe3');
+                }, 0);
+            }
+        }
+        var component = document.querySelector('.homepagelogin-viaJ');
+        component.addEventListener('click', clickhomepageLoginviaJMd91set1Handler);
+        function resethomepageLoginviaJMd91set() {
+            var component = document.querySelector('.homepagelogin-viaJ');
+            if (!component) {
+                return;
+            }
+            component.addEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe1tokeyframe2EndedHandler);
+            removeAllClassesButFirst(component, 'keyframe1-to-keyframe2');
+            addClass(component, 'keyframe2');
+            addClass(component, 'keyframe1-to-keyframe2');
+        }
+        function transitionhomepageLoginviaJMd91setkeyframe2tokeyframe3EndedHandler(event) {
+            if (event.target.className.trim() == 'c1' || event.target.className.startsWith('c1 ')) {
+                var component = document.querySelector('.homepagelogin-viaJ');
+                component.removeEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe2tokeyframe3EndedHandler);
+                setTimeout(function () {
+                    var component = document.querySelector('.homepagelogin-viaJ');
+                    component.addEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe3tokeyframe4EndedHandler);
+                    removeAllClassesButFirst(component, 'keyframe3-to-keyframe4');
+                    addClass(component, 'keyframe4');
+                    addClass(component, 'keyframe3-to-keyframe4');
+                }, 0);
+            }
+        }
+        function transitionhomepageLoginviaJMd91setkeyframe3tokeyframe4EndedHandler(event) {
+            if (event.target.className.trim() == 'logincard' || event.target.className.startsWith('logincard ')) {
+                var component = document.querySelector('.homepagelogin-viaJ');
+                component.removeEventListener(transitionEvent, transitionhomepageLoginviaJMd91setkeyframe3tokeyframe4EndedHandler);
+            }
+        }
+        function clickshowPsw7DjCMd91set1Handler(event) {
+            var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
+            if (isCurrentState(component, 'state1')) {
+                try {
+                    setTimeout(function () {
+                        var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
+                        component.addEventListener(transitionEvent, transitionshowPsw7DjCMd91setstate1tostate2EndedHandler);
+                        removeAllClassesButFirst(component, 'state1-to-state2');
+                        addClass(component, 'state2');
+                        addClass(component, 'state1-to-state2');
+                    }, 0);
+                } catch (e) {
+                    console.log(e);
                 }
-                toLoad.sort(function(a, b) {
-                    return anima_getTop(a) - anima_getTop(b);
-                });
-                for (var i = 0; i < toLoad.length; i++) {
-                    var e = toLoad[i];
-                    var asyncSrc = e.getAttribute("anima-src");
-                    e.setAttribute("src", asyncSrc);
+            }
+        }
+        function transitionshowPsw7DjCMd91setstate1tostate2EndedHandler(event) {
+            if (event.target.className.trim() == 'rectangle' || event.target.className.startsWith('rectangle ')) {
+                var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
+                component.removeEventListener(transitionEvent, transitionshowPsw7DjCMd91setstate1tostate2EndedHandler);
+            }
+        }
+        child = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .showpassword');
+        if (child) {
+            child.addEventListener('click', clickshowPsw7DjCMd91set1Handler);
+            child.style['cursor'] = 'pointer';
+        } else {
+            console.log('Could not find element at: .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .showpassword');
+        }
+        function resetshowPsw7DjCMd91set() {
+            var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
+            if (!component) {
+                return;
+            }
+            component.addEventListener(transitionEvent, transitionshowPsw7DjCMd91setstate1tostate2EndedHandler);
+            removeAllClassesButFirst(component, 'state1-to-state2');
+            addClass(component, 'state2');
+            addClass(component, 'state1-to-state2');
+        }
+        function clickshowPsw7DjCMd91set2Handler(event) {
+            var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
+            if (isCurrentState(component, 'state2')) {
+                try {
+                    setTimeout(function () {
+                        var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
+                        component.addEventListener(transitionEvent, transitionshowPsw7DjCMd91setstate2tostate1EndedHandler);
+                        removeAllClassesButFirst(component, 'state2-to-state1');
+                        addClass(component, 'state1');
+                        addClass(component, 'state2-to-state1');
+                    }, 0);
+                } catch (e) {
+                    console.log(e);
                 }
-            };
-            anima_pauseHiddenVideos = function(tag) {
-                var elements = document.getElementsByTagName("video");
-                for (var i = 0; i < elements.length; i++) {
-                    var e = elements[i];
-                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
-                    var isHidden = anima_isHidden(e);
-                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
-                        e.play();
-                    } else if (isPlaying && isHidden) {
-                        e.pause();
-                    }
+            }
+        }
+        function transitionshowPsw7DjCMd91setstate2tostate1EndedHandler(event) {
+            if (event.target.className.trim() == 'rectangle' || event.target.className.startsWith('rectangle ')) {
+                var component = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC');
+                component.removeEventListener(transitionEvent, transitionshowPsw7DjCMd91setstate2tostate1EndedHandler);
+            }
+        }
+        child = document.querySelector('.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .showpassword');
+        if (child) {
+            child.addEventListener('click', clickshowPsw7DjCMd91set2Handler);
+            child.style['cursor'] = 'pointer';
+        } else {
+            console.log('Could not find element at: .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .showpassword');
+        }
+        (function () {
+            var component = document.querySelector('.homepagelogin-viaJ');
+            var event = new Event('click');
+            component.dispatchEvent(event);
+        })();
+    </script>
+    <!-- Scripts -->
+    <script>
+        anima_isHidden = function (e) {
+            if (!(e instanceof HTMLElement)) return !1;
+            if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
+            return !1;
+        };
+        anima_loadAsyncSrcForTag = function (tag) {
+            var elements = document.getElementsByTagName(tag);
+            var toLoad = [];
+            for (var i = 0; i < elements.length; i++) {
+                var e = elements[i];
+                var src = e.getAttribute("src");
+                var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+                if (loaded) continue;
+                var asyncSrc = e.getAttribute("anima-src");
+                if (asyncSrc == undefined || asyncSrc.length == 0) continue;
+                if (anima_isHidden(e)) continue;
+                toLoad.push(e);
+            }
+            toLoad.sort(function (a, b) {
+                return anima_getTop(a) - anima_getTop(b);
+            });
+            for (var i = 0; i < toLoad.length; i++) {
+                var e = toLoad[i];
+                var asyncSrc = e.getAttribute("anima-src");
+                e.setAttribute("src", asyncSrc);
+            }
+        };
+        anima_pauseHiddenVideos = function (tag) {
+            var elements = document.getElementsByTagName("video");
+            for (var i = 0; i < elements.length; i++) {
+                var e = elements[i];
+                var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
+                var isHidden = anima_isHidden(e);
+                if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
+                    e.play();
+                } else if (isPlaying && isHidden) {
+                    e.pause();
                 }
-            };
-            anima_loadAsyncSrc = function(tag) {
-                anima_loadAsyncSrcForTag("img");
-                anima_loadAsyncSrcForTag("iframe");
-                anima_loadAsyncSrcForTag("video");
-                anima_pauseHiddenVideos();
-            };
-            var anima_getTop = function(e) {
-                var top = 0;
-                do {
-                    top += e.offsetTop || 0;
-                    e = e.offsetParent;
-                } while (e);
-                return top;
-            };
+            }
+        };
+        anima_loadAsyncSrc = function (tag) {
+            anima_loadAsyncSrcForTag("img");
+            anima_loadAsyncSrcForTag("iframe");
+            anima_loadAsyncSrcForTag("video");
+            anima_pauseHiddenVideos();
+        };
+        var anima_getTop = function (e) {
+            var top = 0;
+            do {
+                top += e.offsetTop || 0;
+                e = e.offsetParent;
+            } while (e);
+            return top;
+        };
+        anima_loadAsyncSrc();
+        anima_old_onResize = window.onresize;
+        anima_new_onResize = undefined;
+        anima_updateOnResize = function () {
+            if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
+                anima_new_onResize = function (x) {
+                    if (anima_old_onResize != undefined) anima_old_onResize(x);
+                    anima_loadAsyncSrc();
+                };
+                window.onresize = anima_new_onResize;
+                setTimeout(function () {
+                    anima_updateOnResize();
+                }, 3000);
+            }
+        };
+        anima_updateOnResize();
+        setTimeout(function () {
             anima_loadAsyncSrc();
-            anima_old_onResize = window.onresize;
-            anima_new_onResize = undefined;
-            anima_updateOnResize = function() {
-                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
-                    anima_new_onResize = function(x) {
-                        if (anima_old_onResize != undefined) anima_old_onResize(x);
-                        anima_loadAsyncSrc();
-                    };
-                    window.onresize = anima_new_onResize;
-                    setTimeout(function() {
-                        anima_updateOnResize();
-                    }, 3000);
-                }
-            };
-            anima_updateOnResize();
-            setTimeout(function() {
-                anima_loadAsyncSrc();
-            }, 200);
-        </script>
-        <!-- End of Scripts -->
-    </body>
+        }, 200);
+    </script>
+    <!-- End of Scripts -->
+</body>
+
 </html>
