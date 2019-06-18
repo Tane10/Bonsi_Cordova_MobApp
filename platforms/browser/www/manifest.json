@@ -1,10 +1,10 @@
 {
   "background_color": "#FFF",
   "display": "standalone",
-  "name": "HelloCordova",
-  "short_name": "HelloCordova",
+  "name": "Bonsi",
+  "short_name": "Bonsi",
   "version": "io.cordova.hellocordova",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "description": "A small prototype app that will be using cobot API.",
   "author": "Apache Cordova Team",
   "icons": [],
   "start_url": "homepagelogin.html"
