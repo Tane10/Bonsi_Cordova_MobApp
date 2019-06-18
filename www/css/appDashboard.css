@@ -1,1043 +1,1021 @@
-
-
 .appdashboard {
-  width               : 100%;
-  min-width           : 375px;
-  height              : 100vh;
-  min-height          : 812px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
+  width: 100%;
+  min-width: 375px;
+  height: 100vh;
+  min-height: 812px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(255, 255, 255, 1.0);
+  background-color: rgba(255, 255, 255, 1);
 }
 a {
-  text-decoration     : none;
+  text-decoration: none;
 }
 div {
   -webkit-text-size-adjust: none;
 }
 .anima-full-width-a {
-  width               : 100%;
+  width: 100%;
 }
 .anima-full-height-a {
-  height              : 100%;
+  height: 100%;
 }
 div {
   -webkit-text-size-adjust: none;
 }
 .appdashboard .bgcolor {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 812px;
-  width               : 375px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 812px;
+  width: 375px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .bgcolor1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -135px;
-  height              : 375px;
-  width               : 105px;
-  position            : absolute;
-  margin              : 0;
-  left                : 135px;
-  -ms-transform       : rotate(90deg); /* IE 9 */
-  -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
-  transform           : rotate(90deg);
-  opacity             : 0.47;
+  background-color: rgba(255, 255, 255, 0);
+  top: -135px;
+  height: 375px;
+  width: 105px;
+  position: absolute;
+  margin: 0;
+  left: 135px;
+  -ms-transform: rotate(90deg); /* IE 9 */
+  -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+  transform: rotate(90deg);
+  opacity: 0.47;
 }
 .appdashboard .topbarrec {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -2px;
-  height              : 820px;
-  width               : 108px;
-  position            : absolute;
-  margin              : 0;
-  left                : -4px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: -2px;
+  height: 820px;
+  width: 108px;
+  position: absolute;
+  margin: 0;
+  left: -4px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .username {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 177px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 9px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
+  background-color: rgba(255, 255, 255, 0);
+  top: 177px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 9px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 24px;
 }
 .appdashboard .sed08512 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 354px;
-  height              : 71px;
-  width               : 71px;
-  position            : absolute;
-  margin              : 0;
-  left                : 11px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 354px;
+  height: 71px;
+  width: 71px;
+  position: absolute;
+  margin: 0;
+  left: 11px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .emailenvelopelettermailmailing512 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 247px;
-  height              : 66px;
-  width               : 66px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 247px;
+  height: 66px;
+  width: 66px;
+  position: absolute;
+  margin: 0;
+  left: 13px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .face {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 114px;
-  height              : 68px;
-  width               : 70px;
-  position            : absolute;
-  margin              : 0;
-  left                : 13px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 114px;
+  height: 68px;
+  width: 70px;
+  position: absolute;
+  margin: 0;
+  left: 13px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .a17576200 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 468px;
-  height              : 59px;
-  width               : 58px;
-  position            : absolute;
-  margin              : 0;
-  left                : 17px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 468px;
+  height: 59px;
+  width: 58px;
+  position: absolute;
+  margin: 0;
+  left: 17px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .logo {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 26px;
-  height              : 124px;
-  width               : 175px;
-  position            : absolute;
-  margin              : 0;
-  left                : 172px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 26px;
+  height: 124px;
+  width: 175px;
+  position: absolute;
+  margin: 0;
+  left: 172px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .logo .bonsi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : calc(50.00% - 62px);
-  height              : 124px;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.93;
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 40.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 60.0px;
+  background-color: rgba(255, 255, 255, 0);
+  top: calc(50% - 62px);
+  height: 124px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.93;
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 60px;
 }
 .appdashboard .bonsilogo {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 15px;
-  height              : 85px;
-  width               : 102px;
-  position            : absolute;
-  margin              : 0;
-  left                : 2px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.9;
+  background-color: rgba(255, 255, 255, 0);
+  top: 15px;
+  height: 85px;
+  width: 102px;
+  position: absolute;
+  margin: 0;
+  left: 2px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.9;
 }
 .appdashboard .rectangle {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 484px;
-  height              : 197px;
-  width               : 298px;
-  position            : absolute;
-  margin              : 0;
-  left                : 84px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 484px;
+  height: 197px;
+  width: 298px;
+  position: absolute;
+  margin: 0;
+  left: 84px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 471px;
-  height              : 191px;
-  width               : 260px;
-  position            : absolute;
-  margin              : 0;
-  left                : 106px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 471px;
+  height: 191px;
+  width: 260px;
+  position: absolute;
+  margin: 0;
+  left: 106px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .rectangle1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 83.25%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 0px;
+  height: 83.25%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 3.14%;
-  height              : 80.10%;
-  width               : 98.08%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0.96%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 3.14%;
+  height: 80.1%;
+  width: 98.08%;
+  position: absolute;
+  margin: 0;
+  left: 0.96%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 .a12 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 51.63%;
-  width               : 60.00%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 0px;
+  height: 51.63%;
+  width: 60%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 .a12 .rectangle7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 .a12 .room4 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 54px;
-  height              : 22px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 26px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(37, 38, 94, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.3px;
-  line-height         : 22.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 54px;
+  height: 22px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 26px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(37, 38, 94, 1);
+  text-align: left;
+  letter-spacing: 0.3px;
+  line-height: 22px;
 }
 .appdashboard .freerooms .group31 .a12 .a1000amu20141030am1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 6.33%;
-  height              : 34px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 16.99%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(120, 120, 147, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.28px;
-  line-height         : 17.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 6.33%;
+  height: 34px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 16.99%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 11px;
+  color: rgba(120, 120, 147, 1);
+  text-align: left;
+  letter-spacing: 0.28px;
+  line-height: 17px;
 }
 .appdashboard .freerooms .group31 .a12 .rectangle8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3.80%;
-  height              : 88.61%;
-  width               : 1.96%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.61%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 3.8%;
+  height: 88.61%;
+  width: 1.96%;
+  position: absolute;
+  margin: 0;
+  left: 2.61%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 .meetingroomblock {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  bottom              : 0px;
-  height              : 51.63%;
-  width               : 60.00%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  right: 0px;
+  bottom: 0px;
+  height: 51.63%;
+  width: 60%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 .meetingroomblock .rectangle7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 .meetingroomblock .room4 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 54px;
-  height              : 22px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 26px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(37, 38, 94, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.3px;
-  line-height         : 22.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 54px;
+  height: 22px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 26px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(37, 38, 94, 1);
+  text-align: left;
+  letter-spacing: 0.3px;
+  line-height: 22px;
 }
 .appdashboard .freerooms .group31 .meetingroomblock .a1000amu20141030am1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 7.59%;
-  height              : 34px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 16.99%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(120, 120, 147, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.28px;
-  line-height         : 17.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 7.59%;
+  height: 34px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 16.99%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 11px;
+  color: rgba(120, 120, 147, 1);
+  text-align: left;
+  letter-spacing: 0.28px;
+  line-height: 17px;
 }
 .appdashboard .freerooms .group31 .meetingroomblock .rectangle8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3.80%;
-  height              : 88.61%;
-  width               : 1.96%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.61%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 3.8%;
+  height: 88.61%;
+  width: 1.96%;
+  position: absolute;
+  margin: 0;
+  left: 2.61%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 .meetingroomblock1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0.65%;
-  height              : 51.63%;
-  width               : 60.00%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0.65%;
+  height: 51.63%;
+  width: 60%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 .meetingroomblock1 .rectangle7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 .meetingroomblock1 .room4 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 54px;
-  height              : 22px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 26px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(37, 38, 94, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.3px;
-  line-height         : 22.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 54px;
+  height: 22px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 26px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(37, 38, 94, 1);
+  text-align: left;
+  letter-spacing: 0.3px;
+  line-height: 22px;
 }
 .appdashboard .freerooms .group31 .meetingroomblock1 .a1000amu20141030am1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 7.59%;
-  height              : 34px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 16.99%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(120, 120, 147, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.28px;
-  line-height         : 17.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 7.59%;
+  height: 34px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 16.99%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 11px;
+  color: rgba(120, 120, 147, 1);
+  text-align: left;
+  letter-spacing: 0.28px;
+  line-height: 17px;
 }
 .appdashboard .freerooms .group31 .meetingroomblock1 .rectangle8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3.80%;
-  height              : 88.61%;
-  width               : 1.96%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.61%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 3.8%;
+  height: 88.61%;
+  width: 1.96%;
+  position: absolute;
+  margin: 0;
+  left: 2.61%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 .meetingroomblock2 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0.65%;
-  height              : 51.63%;
-  width               : 60.00%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  right: 0px;
+  top: 0.65%;
+  height: 51.63%;
+  width: 60%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 .meetingroomblock2 .rectangle7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 .meetingroomblock2 .room4 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 54px;
-  height              : 22px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 26px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(37, 38, 94, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.3px;
-  line-height         : 22.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 54px;
+  height: 22px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 26px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(37, 38, 94, 1);
+  text-align: left;
+  letter-spacing: 0.3px;
+  line-height: 22px;
 }
 .appdashboard .freerooms .group31 .meetingroomblock2 .a1000amu20141030am1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 6.33%;
-  height              : 34px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 16.99%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(120, 120, 147, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.28px;
-  line-height         : 17.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 6.33%;
+  height: 34px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 16.99%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 11px;
+  color: rgba(120, 120, 147, 1);
+  text-align: left;
+  letter-spacing: 0.28px;
+  line-height: 17px;
 }
 .appdashboard .freerooms .group31 .meetingroomblock2 .rectangle8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3.80%;
-  height              : 88.61%;
-  width               : 1.96%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.61%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 3.8%;
+  height: 88.61%;
+  width: 1.96%;
+  position: absolute;
+  margin: 0;
+  left: 2.61%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .group31 .rectangle11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms .freeroom {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 48px;
-  width               : 33.85%;
-  position            : absolute;
-  margin              : 0;
-  left                : 1.54%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 48px;
+  width: 33.85%;
+  position: absolute;
+  margin: 0;
+  left: 1.54%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 24px;
 }
 .appdashboard .freerooms1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 258px;
-  height              : 191px;
-  width               : 260px;
-  position            : absolute;
-  margin              : 0;
-  left                : 109px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 258px;
+  height: 191px;
+  width: 260px;
+  position: absolute;
+  margin: 0;
+  left: 109px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .rectangle1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 83.25%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 0px;
+  height: 83.25%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 3.14%;
-  height              : 80.10%;
-  width               : 98.08%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0.96%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 3.14%;
+  height: 80.1%;
+  width: 98.08%;
+  position: absolute;
+  margin: 0;
+  left: 0.96%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 .a12 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 0px;
-  height              : 51.63%;
-  width               : 60.00%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 0px;
+  height: 51.63%;
+  width: 60%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 .a12 .rectangle7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 .a12 .room4 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 54px;
-  height              : 22px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 26px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(37, 38, 94, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.3px;
-  line-height         : 22.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 54px;
+  height: 22px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 26px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(37, 38, 94, 1);
+  text-align: left;
+  letter-spacing: 0.3px;
+  line-height: 22px;
 }
 .appdashboard .freerooms1 .group31 .a12 .a1000amu20141030am1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 6.33%;
-  height              : 34px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 16.99%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(120, 120, 147, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.28px;
-  line-height         : 17.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 6.33%;
+  height: 34px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 16.99%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 11px;
+  color: rgba(120, 120, 147, 1);
+  text-align: left;
+  letter-spacing: 0.28px;
+  line-height: 17px;
 }
 .appdashboard .freerooms1 .group31 .a12 .rectangle8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3.80%;
-  height              : 88.61%;
-  width               : 1.96%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.61%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 3.8%;
+  height: 88.61%;
+  width: 1.96%;
+  position: absolute;
+  margin: 0;
+  left: 2.61%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  bottom              : 0px;
-  height              : 51.63%;
-  width               : 60.00%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  right: 0px;
+  bottom: 0px;
+  height: 51.63%;
+  width: 60%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock .rectangle7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock .room4 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 54px;
-  height              : 22px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 26px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(37, 38, 94, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.3px;
-  line-height         : 22.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 54px;
+  height: 22px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 26px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(37, 38, 94, 1);
+  text-align: left;
+  letter-spacing: 0.3px;
+  line-height: 22px;
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock .a1000amu20141030am1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 7.59%;
-  height              : 34px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 16.99%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(120, 120, 147, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.28px;
-  line-height         : 17.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 7.59%;
+  height: 34px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 16.99%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 11px;
+  color: rgba(120, 120, 147, 1);
+  text-align: left;
+  letter-spacing: 0.28px;
+  line-height: 17px;
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock .rectangle8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3.80%;
-  height              : 88.61%;
-  width               : 1.96%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.61%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 3.8%;
+  height: 88.61%;
+  width: 1.96%;
+  position: absolute;
+  margin: 0;
+  left: 2.61%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0.65%;
-  height              : 51.63%;
-  width               : 60.00%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0.65%;
+  height: 51.63%;
+  width: 60%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock1 .rectangle7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock1 .room4 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 54px;
-  height              : 22px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 26px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(37, 38, 94, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.3px;
-  line-height         : 22.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 54px;
+  height: 22px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 26px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(37, 38, 94, 1);
+  text-align: left;
+  letter-spacing: 0.3px;
+  line-height: 22px;
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock1 .a1000amu20141030am1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 7.59%;
-  height              : 34px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 16.99%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(120, 120, 147, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.28px;
-  line-height         : 17.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 7.59%;
+  height: 34px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 16.99%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 11px;
+  color: rgba(120, 120, 147, 1);
+  text-align: left;
+  letter-spacing: 0.28px;
+  line-height: 17px;
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock1 .rectangle8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3.80%;
-  height              : 88.61%;
-  width               : 1.96%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.61%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 3.8%;
+  height: 88.61%;
+  width: 1.96%;
+  position: absolute;
+  margin: 0;
+  left: 2.61%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock2 {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 0px;
-  top                 : 0.65%;
-  height              : 51.63%;
-  width               : 60.00%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  right: 0px;
+  top: 0.65%;
+  height: 51.63%;
+  width: 60%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock2 .rectangle7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock2 .room4 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 54px;
-  height              : 22px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 26px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(37, 38, 94, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.3px;
-  line-height         : 22.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 54px;
+  height: 22px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 26px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(37, 38, 94, 1);
+  text-align: left;
+  letter-spacing: 0.3px;
+  line-height: 22px;
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock2 .a1000amu20141030am1 {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 6.33%;
-  height              : 34px;
-  width               : 46.41%;
-  position            : absolute;
-  margin              : 0;
-  left                : 16.99%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(120, 120, 147, 1.0);
-  text-align          : left;
-  letter-spacing      : 0.28px;
-  line-height         : 17.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 6.33%;
+  height: 34px;
+  width: 46.41%;
+  position: absolute;
+  margin: 0;
+  left: 16.99%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 11px;
+  color: rgba(120, 120, 147, 1);
+  text-align: left;
+  letter-spacing: 0.28px;
+  line-height: 17px;
 }
 .appdashboard .freerooms1 .group31 .meetingroomblock2 .rectangle8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 3.80%;
-  height              : 88.61%;
-  width               : 1.96%;
-  position            : absolute;
-  margin              : 0;
-  left                : 2.61%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 3.8%;
+  height: 88.61%;
+  width: 1.96%;
+  position: absolute;
+  margin: 0;
+  left: 2.61%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .group31 .rectangle11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .freerooms1 .freeroom {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 48px;
-  width               : 33.85%;
-  position            : absolute;
-  margin              : 0;
-  left                : 1.54%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 48px;
+  width: 33.85%;
+  position: absolute;
+  margin: 0;
+  left: 1.54%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 24px;
 }
 .appdashboard .a1333door512 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 727px;
-  height              : 60px;
-  width               : 60px;
-  position            : absolute;
-  margin              : 0;
-  left                : 16px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 727px;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  margin: 0;
+  left: 16px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .membershipbar {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 189px;
-  height              : 35px;
-  width               : 231px;
-  position            : absolute;
-  margin              : 0;
-  left                : 116px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 189px;
+  height: 35px;
+  width: 231px;
+  position: absolute;
+  margin: 0;
+  left: 116px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .membershipbar .redbar {
-  background-color    : rgba(222, 31, 31, 1.0);
-  top                 : 0px;
-  height              : 100%;
-  box-sizing          : border-box;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  border-radius       : 17px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(0, 0, 0, 1.0);
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.79;
+  background-color: rgba(222, 31, 31, 1);
+  top: 0px;
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  border-radius: 17px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 1);
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.79;
 }
 .appdashboard .membershipbar .greenbar {
-  background-color    : rgba(0, 130, 22, 1.0);
-  top                 : 2.86%;
-  height              : 94.29%;
-  width               : 79.22%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0.43%;
-  border-radius       : 16px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(0, 130, 22, 1);
+  top: 2.86%;
+  height: 94.29%;
+  width: 79.22%;
+  position: absolute;
+  margin: 0;
+  left: 0.43%;
+  border-radius: 16px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .appdashboard .membershipleft {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 159px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 123px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 24.0px;
+  background-color: rgba(255, 255, 255, 0);
+  top: 159px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 123px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 24px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  opacity: 0;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
 }
 .anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  opacity: 1;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
 }
 .anima-animate-nodelay {
   -webkit-animation-delay: 0;
   -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
 }
 @-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 @-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 @-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
