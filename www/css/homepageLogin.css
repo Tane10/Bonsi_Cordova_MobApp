@@ -1,1098 +1,1087 @@
-
-
 .homepagelogin {
-  width               : 100%;
-  min-width           : 375px;
-  height              : 100vh;
-  min-height          : 812px;
-  position            : relative;
-  overflow            : hidden;
-  margin              : 0px;
+  width: 100%;
+  min-width: 375px;
+  height: 100vh;
+  min-height: 812px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color    : rgba(255, 255, 255, 1.0);
+  background-color: rgba(255, 255, 255, 1);
 }
 a {
-  text-decoration     : none;
+  text-decoration: none;
 }
 div {
   -webkit-text-size-adjust: none;
 }
 .anima-full-width-a {
-  width               : 100%;
+  width: 100%;
 }
 .anima-full-height-a {
-  height              : 100%;
+  height: 100%;
 }
-textarea:focus, input:focus {
-  outline             : none;
+textarea:focus,
+input:focus {
+  outline: none;
 }
 div {
   -webkit-text-size-adjust: none;
 }
 .homepagelogin .bgcolor {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 812px;
-  width               : 375px;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 812px;
+  width: 375px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .bonsilogo {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 136px;
-  height              : 173px;
-  width               : 212px;
-  position            : absolute;
-  margin              : 0;
-  left                : 86px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.9;
+  background-color: rgba(255, 255, 255, 0);
+  top: 136px;
+  height: 173px;
+  width: 212px;
+  position: absolute;
+  margin: 0;
+  left: 86px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.9;
 }
 .homepagelogin .logincard {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 783px;
-  height              : 494px;
-  width               : 349px;
-  position            : absolute;
-  margin              : 0;
-  left                : 14px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 783px;
+  height: 494px;
+  width: 349px;
+  position: absolute;
+  margin: 0;
+  left: 14px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .logincard .c1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 99.71%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 99.71%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .logincard .loginwith {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 6.07%;
-  height              : 26px;
-  width               : 24.93%;
-  position            : absolute;
-  margin              : 0;
-  left                : 37.54%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Black", Helvetica, Arial, serif;
-  font-size           : 17.0px;
-  color               : rgba(64, 64, 64, 1.0);
-  text-align          : left;
-  line-height         : 26.0px;
+  background-color: rgba(255, 255, 255, 0);
+  top: 6.07%;
+  height: 26px;
+  width: 24.93%;
+  position: absolute;
+  margin: 0;
+  left: 37.54%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Black", Helvetica, Arial, serif;
+  font-size: 17px;
+  color: rgba(64, 64, 64, 1);
+  text-align: left;
+  line-height: 26px;
 }
 .homepagelogin .logincard .loginbutton {
-  background-color    : rgba(21, 200, 114, 0.6);
-  right               : 18.91%;
-  bottom              : 22.27%;
-  height              : 9.11%;
-  width               : 61.32%;
-  position            : absolute;
-  margin              : 0;
-  border-radius       : 22px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(21, 200, 114, 0.6);
+  right: 18.91%;
+  bottom: 22.27%;
+  height: 9.11%;
+  width: 61.32%;
+  position: absolute;
+  margin: 0;
+  border-radius: 22px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .logincard .passwordfield {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 39.68%;
-  height              : 15.59%;
-  width               : 87.11%;
-  position            : absolute;
-  margin              : 0;
-  left                : 6.45%;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 39.68%;
+  height: 15.59%;
+  width: 87.11%;
+  position: absolute;
+  margin: 0;
+  left: 6.45%;
+  overflow: hidden;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .logincard .passwordfield .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .logincard .passwordfield .field {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 37px;
-  height              : calc(100.00% - 37px);
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 37px;
+  height: calc(100% - 37px);
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .logincard .passwordfield .field .input {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .logincard .passwordfield .field .textpassword {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : calc(50.00% - 8px);
-  height              : 17px;
-  width               : 24.34%;
-  position            : absolute;
-  margin              : 0;
-  left                : 8px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
+  background-color: rgba(255, 255, 255, 0);
+  top: calc(50% - 8px);
+  height: 17px;
+  width: 24.34%;
+  position: absolute;
+  margin: 0;
+  left: 8px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Helvetica", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(215, 215, 215, 1);
+  text-align: left;
+  line-height: 17px;
+  border: 0;
+  resize: none;
+  padding: 0;
 }
 .homepagelogin .logincard .passwordfield .field .textpassword::placeholder {
-  color               : rgba(215, 215, 215, 0.6);
+  color: rgba(215, 215, 215, 0.6);
 }
 .homepagelogin .logincard .passwordfield .label {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -6px;
-  height              : 26px;
-  width               : 26.32%;
-  position            : absolute;
-  margin              : 0;
-  left                : 108px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Black", Helvetica, Arial, serif;
-  font-size           : 17.0px;
-  color               : rgba(73, 73, 73, 1.0);
-  text-align          : left;
-  line-height         : 26.0px;
+  background-color: rgba(255, 255, 255, 0);
+  top: -6px;
+  height: 26px;
+  width: 26.32%;
+  position: absolute;
+  margin: 0;
+  left: 108px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Black", Helvetica, Arial, serif;
+  font-size: 17px;
+  color: rgba(73, 73, 73, 1);
+  text-align: left;
+  line-height: 26px;
 }
 .homepagelogin .logincard .usernamefield {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 17.81%;
-  height              : 15.59%;
-  width               : 87.11%;
-  position            : absolute;
-  margin              : 0;
-  left                : 6.45%;
-  overflow            : hidden;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 17.81%;
+  height: 15.59%;
+  width: 87.11%;
+  position: absolute;
+  margin: 0;
+  left: 6.45%;
+  overflow: hidden;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .logincard .usernamefield .background {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .logincard .usernamefield .field {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 37px;
-  height              : calc(100.00% - 37px);
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 37px;
+  height: calc(100% - 37px);
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .logincard .usernamefield .field .input {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 100%;
-  width               : 100%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .logincard .usernamefield .field .textusername {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : calc(50.00% - 8px);
-  height              : 17px;
-  width               : 25.33%;
-  position            : absolute;
-  margin              : 0;
-  left                : 8px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Helvetica", Helvetica, Arial, serif;
-  font-size           : 14.0px;
-  color               : rgba(215, 215, 215, 1.0);
-  text-align          : left;
-  line-height         : 17.0px;
-  border              : 0;
-  resize              : none;
-  padding             : 0;
+  background-color: rgba(255, 255, 255, 0);
+  top: calc(50% - 8px);
+  height: 17px;
+  width: 25.33%;
+  position: absolute;
+  margin: 0;
+  left: 8px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Helvetica", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(215, 215, 215, 1);
+  text-align: left;
+  line-height: 17px;
+  border: 0;
+  resize: none;
+  padding: 0;
 }
 .homepagelogin .logincard .usernamefield .field .textusername::placeholder {
-  color               : rgba(215, 215, 215, 0.6);
+  color: rgba(215, 215, 215, 0.6);
 }
 .homepagelogin .logincard .usernamefield .label {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : -6px;
-  height              : 26px;
-  width               : 27.30%;
-  position            : absolute;
-  margin              : 0;
-  left                : 108px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Nunito-Black", Helvetica, Arial, serif;
-  font-size           : 17.0px;
-  color               : rgba(73, 73, 73, 1.0);
-  text-align          : left;
-  line-height         : 26.0px;
+  background-color: rgba(255, 255, 255, 0);
+  top: -6px;
+  height: 26px;
+  width: 27.3%;
+  position: absolute;
+  margin: 0;
+  left: 108px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Black", Helvetica, Arial, serif;
+  font-size: 17px;
+  color: rgba(73, 73, 73, 1);
+  text-align: left;
+  line-height: 26px;
 }
 .homepagelogin .logincard .areyounew {
-  background-color    : rgba(255,255,255,0.0);
-  bottom              : 13.16%;
-  height              : 19px;
-  width               : 24.07%;
-  position            : absolute;
-  margin              : 0;
-  left                : 37.97%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Muli", Helvetica, Arial, serif;
-  font-size           : 13.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 19.0px;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 13.16%;
+  height: 19px;
+  width: 24.07%;
+  position: absolute;
+  margin: 0;
+  left: 37.97%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Muli", Helvetica, Arial, serif;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 19px;
 }
 .homepagelogin .logincard .showpsw {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 6.30%;
-  bottom              : 37.25%;
-  height              : 7.49%;
-  width               : 34.38%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  right: 6.3%;
+  bottom: 37.25%;
+  height: 7.49%;
+  width: 34.38%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .logincard .showpsw .areyounew1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 24.32%;
-  height              : 16px;
-  width               : 69.17%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  font-family         : "Muli", Helvetica, Arial, serif;
-  font-size           : 11.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
+  background-color: rgba(255, 255, 255, 0);
+  top: 24.32%;
+  height: 16px;
+  width: 69.17%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Muli", Helvetica, Arial, serif;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 16px;
 }
 .homepagelogin .logincard .showpsw .showpassword {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 0px;
-  height              : 37px;
-  width               : 37px;
-  position            : absolute;
-  margin              : 0;
-  left                : 83px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 37px;
+  width: 37px;
+  position: absolute;
+  margin: 0;
+  left: 83px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .logincard .showpsw .rectangle {
-  background-color    : rgba(0, 0, 0, 0.8);
-  right               : 2.50%;
-  top                 : 44.59%;
-  height              : 10.81%;
-  width               : 26.67%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(-24deg); /* IE 9 */
-  -webkit-transform   : rotate(-24deg); /* Chrome, Safari, Opera */
-  transform           : rotate(-24deg);
+  background-color: rgba(0, 0, 0, 0.8);
+  right: 2.5%;
+  top: 44.59%;
+  height: 10.81%;
+  width: 26.67%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(-24deg); /* IE 9 */
+  -webkit-transform: rotate(-24deg); /* Chrome, Safari, Opera */
+  transform: rotate(-24deg);
 }
 .homepagelogin .logincard .login {
-  background-color    : rgba(255,255,255,0.0);
-  right               : 40.40%;
-  bottom              : 19.64%;
-  height              : 54px;
-  width               : 15.47%;
-  position            : absolute;
-  margin              : 0;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.78;
-  font-family         : "Nunito-Black", Helvetica, Arial, serif;
-  font-size           : 20.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 15.0px;
+  background-color: rgba(255, 255, 255, 0);
+  right: 40.4%;
+  bottom: 19.64%;
+  height: 54px;
+  width: 15.47%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.78;
+  font-family: "Nunito-Black", Helvetica, Arial, serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 15px;
 }
 .homepagelogin .logincard .login .span1 {
-  text-align          : justify;
-  line-height         : 31.0px;
+  text-align: justify;
+  line-height: 31px;
 }
 .homepagelogin .logincard .login .span2 {
-  font-size           : 15.0px;
-  text-align          : justify;
-  line-height         : 23.0px;
+  font-size: 15px;
+  text-align: justify;
+  line-height: 23px;
 }
 .homepagelogin .title1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 31px;
-  height              : 92px;
-  width               : 152px;
-  position            : absolute;
-  margin              : 0;
-  left                : 113px;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
+  background-color: rgba(255, 255, 255, 0);
+  top: 31px;
+  height: 92px;
+  width: 152px;
+  position: absolute;
+  margin: 0;
+  left: 113px;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 .homepagelogin .title1 .bonsi1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : calc(50.00% - 46px);
-  height              : 91px;
-  width               : 99.34%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0.33%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.93;
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 60.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 91.0px;
+  background-color: rgba(255, 255, 255, 0);
+  top: calc(50% - 46px);
+  height: 91px;
+  width: 99.34%;
+  position: absolute;
+  margin: 0;
+  left: 0.33%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.93;
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 60px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 91px;
 }
 .homepagelogin .title1 .bonsi {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : calc(50.00% - 46px);
-  height              : 91px;
-  width               : 99.34%;
-  position            : absolute;
-  margin              : 0;
-  left                : 0.33%;
-  -ms-transform       : rotate(0deg); /* IE 9 */
-  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-  transform           : rotate(0deg);
-  opacity             : 0.93;
-  font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-  font-size           : 60.0px;
-  color               : rgba(255, 255, 255, 1.0);
-  text-align          : left;
-  line-height         : 91.0px;
+  background-color: rgba(255, 255, 255, 0);
+  top: calc(50% - 46px);
+  height: 91px;
+  width: 99.34%;
+  position: absolute;
+  margin: 0;
+  left: 0.33%;
+  -ms-transform: rotate(0deg); /* IE 9 */
+  -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.93;
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 60px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 91px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
-  opacity             : 0;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  opacity: 0;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
 }
 .anima-animate-disappear {
-  opacity             : 1;
-  display             : block;
-  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
-  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
-  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  opacity: 1;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation: anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
 }
 .anima-animate-nodelay {
   -webkit-animation-delay: 0;
   -moz-animation-delay: 0;
-  -o-animation-delay  : 0;
-  animation-delay     : 0;
+  -o-animation-delay: 0;
+  animation-delay: 0;
 }
 @-webkit-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 @-moz-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 @-o-keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes anima-reveal {
-  0%
-   
-  {
-      opacity: 0;
-    }
-  
-    
-  100%
-   
-  {
-      opacity: 1;
-    }
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 .homepagelogin-viaJ * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .homepagelogin-viaJ {
-    pointer-events: none;
-    overflow: hidden;
-    width: 100%;
-    min-width: 375px;
-    height: 100vh;
-    min-height: 812px;
-    position: relative;
-    overflow: hidden;
-    margin: 0px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: rgba(255, 255, 255, 1.0);
+  pointer-events: none;
+  overflow: hidden;
+  width: 100%;
+  min-width: 375px;
+  height: 100vh;
+  min-height: 812px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .homepagelogin-viaJ .bgcolor {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 0px;
-    height: 812px;
-    width: 375px;
-    position: absolute;
-    margin: 0;
-    left: 0px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 812px;
+  width: 375px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .bonsilogo {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 136px;
-    height: 173px;
-    width: 212px;
-    position: absolute;
-    margin: 0;
-    left: 86px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-    opacity: 0.9;
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 136px;
+  height: 173px;
+  width: 212px;
+  position: absolute;
+  margin: 0;
+  left: 86px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.9;
 }
 
 .homepagelogin-viaJ .logincard-meBV {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 783px;
-    height: 494px;
-    width: 349px;
-    position: absolute;
-    margin: 0;
-    left: 14px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 783px;
+  height: 494px;
+  width: 349px;
+  position: absolute;
+  margin: 0;
+  left: 14px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .logincard-meBV .c1 {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 0px;
-    height: 100%;
-    width: 99.71%;
-    position: absolute;
-    margin: 0;
-    left: 0px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 99.71%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .logincard-meBV .loginwith {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 6.07%;
-    height: 26px;
-    width: 24.93%;
-    position: absolute;
-    margin: 0;
-    left: 37.54%;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-    font-family: "Nunito-Black", Helvetica, Arial, serif;
-    font-size: 17.0px;
-    color: rgba(64, 64, 64, 1.0);
-    text-align: left;
-    line-height: 26.0px;
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 6.07%;
+  height: 26px;
+  width: 24.93%;
+  position: absolute;
+  margin: 0;
+  left: 37.54%;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Black", Helvetica, Arial, serif;
+  font-size: 17px;
+  color: rgba(64, 64, 64, 1);
+  text-align: left;
+  line-height: 26px;
 }
 
 .homepagelogin-viaJ .logincard-meBV .loginbutton {
-    pointer-events: auto;
-    background-color: rgba(21, 200, 114, 0.6);
-    right: 18.91%;
-    bottom: 22.27%;
-    height: 9.11%;
-    width: 61.32%;
-    position: absolute;
-    margin: 0;
-    border-radius: 22px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: auto;
+  background-color: rgba(21, 200, 114, 0.6);
+  right: 18.91%;
+  bottom: 22.27%;
+  height: 9.11%;
+  width: 61.32%;
+  position: absolute;
+  margin: 0;
+  border-radius: 22px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .logincard-meBV .passwordfield {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 39.68%;
-    height: 15.59%;
-    width: 87.11%;
-    position: absolute;
-    margin: 0;
-    left: 6.45%;
-    overflow: hidden;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 39.68%;
+  height: 15.59%;
+  width: 87.11%;
+  position: absolute;
+  margin: 0;
+  left: 6.45%;
+  overflow: hidden;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .logincard-meBV .passwordfield .background {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    margin: 0;
-    left: 0px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .logincard-meBV .passwordfield .field {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 37px;
-    height: calc(100.00% - 37px);
-    width: 100%;
-    position: absolute;
-    margin: 0;
-    left: 0px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 37px;
+  height: calc(100% - 37px);
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .logincard-meBV .passwordfield .field .input {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    margin: 0;
-    left: 0px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .logincard-meBV .passwordfield .field .textpassword {
-    pointer-events: auto;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: calc(50.00% - 8px);
-    height: 17px;
-    width: 24.34%;
-    position: absolute;
-    margin: 0;
-    left: 8px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
-    font-size: 14.0px;
-    color: rgba(215, 215, 215, 1.0);
-    text-align: left;
-    line-height: 17.0px;
-    border: 0;
-    resize: none;
-    padding: 0;
+  pointer-events: auto;
+  background-color: rgba(255, 255, 255, 0);
+  top: calc(50% - 8px);
+  height: 17px;
+  width: 24.34%;
+  position: absolute;
+  margin: 0;
+  left: 8px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Helvetica", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(215, 215, 215, 1);
+  text-align: left;
+  line-height: 17px;
+  border: 0;
+  resize: none;
+  padding: 0;
 }
 
 .homepagelogin-viaJ .logincard-meBV .passwordfield .label {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: -6px;
-    height: 26px;
-    width: 26.32%;
-    position: absolute;
-    margin: 0;
-    left: 108px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-    font-family: "Nunito-Black", Helvetica, Arial, serif;
-    font-size: 17.0px;
-    color: rgba(73, 73, 73, 1.0);
-    text-align: left;
-    line-height: 26.0px;
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: -6px;
+  height: 26px;
+  width: 26.32%;
+  position: absolute;
+  margin: 0;
+  left: 108px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Black", Helvetica, Arial, serif;
+  font-size: 17px;
+  color: rgba(73, 73, 73, 1);
+  text-align: left;
+  line-height: 26px;
 }
 
 .homepagelogin-viaJ .logincard-meBV .usernamefield {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 17.81%;
-    height: 15.59%;
-    width: 87.11%;
-    position: absolute;
-    margin: 0;
-    left: 6.45%;
-    overflow: hidden;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 17.81%;
+  height: 15.59%;
+  width: 87.11%;
+  position: absolute;
+  margin: 0;
+  left: 6.45%;
+  overflow: hidden;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .logincard-meBV .usernamefield .background {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    margin: 0;
-    left: 0px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .logincard-meBV .usernamefield .field {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 37px;
-    height: calc(100.00% - 37px);
-    width: 100%;
-    position: absolute;
-    margin: 0;
-    left: 0px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 37px;
+  height: calc(100% - 37px);
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .logincard-meBV .usernamefield .field .input {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 0px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    margin: 0;
-    left: 0px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .logincard-meBV .usernamefield .field .textusername {
-    pointer-events: auto;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: calc(50.00% - 8px);
-    height: 17px;
-    width: 25.33%;
-    position: absolute;
-    margin: 0;
-    left: 8px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
-    font-size: 14.0px;
-    color: rgba(215, 215, 215, 1.0);
-    text-align: left;
-    line-height: 17.0px;
-    border: 0;
-    resize: none;
-    padding: 0;
+  pointer-events: auto;
+  background-color: rgba(255, 255, 255, 0);
+  top: calc(50% - 8px);
+  height: 17px;
+  width: 25.33%;
+  position: absolute;
+  margin: 0;
+  left: 8px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Helvetica", Helvetica, Arial, serif;
+  font-size: 14px;
+  color: rgba(215, 215, 215, 1);
+  text-align: left;
+  line-height: 17px;
+  border: 0;
+  resize: none;
+  padding: 0;
 }
 
 .homepagelogin-viaJ .logincard-meBV .usernamefield .label {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: -6px;
-    height: 26px;
-    width: 27.30%;
-    position: absolute;
-    margin: 0;
-    left: 108px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-    font-family: "Nunito-Black", Helvetica, Arial, serif;
-    font-size: 17.0px;
-    color: rgba(73, 73, 73, 1.0);
-    text-align: left;
-    line-height: 26.0px;
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: -6px;
+  height: 26px;
+  width: 27.3%;
+  position: absolute;
+  margin: 0;
+  left: 108px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Nunito-Black", Helvetica, Arial, serif;
+  font-size: 17px;
+  color: rgba(73, 73, 73, 1);
+  text-align: left;
+  line-height: 26px;
 }
 
 .homepagelogin-viaJ .logincard-meBV .areyounew {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    bottom: 13.16%;
-    height: 19px;
-    width: 24.07%;
-    position: absolute;
-    margin: 0;
-    left: 37.97%;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-    font-family: "Muli", Helvetica, Arial, serif;
-    font-size: 13.0px;
-    color: rgba(0, 0, 0, 1.0);
-    text-align: left;
-    line-height: 19.0px;
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  bottom: 13.16%;
+  height: 19px;
+  width: 24.07%;
+  position: absolute;
+  margin: 0;
+  left: 37.97%;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Muli", Helvetica, Arial, serif;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 19px;
 }
 
 .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    right: 6.30%;
-    bottom: 37.25%;
-    height: 7.49%;
-    width: 34.38%;
-    position: absolute;
-    margin: 0;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  right: 6.3%;
+  bottom: 37.25%;
+  height: 7.49%;
+  width: 34.38%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .areyounew1 {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 24.32%;
-    height: 16px;
-    width: 69.17%;
-    position: absolute;
-    margin: 0;
-    left: 0px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-    font-family: "Muli", Helvetica, Arial, serif;
-    font-size: 11.0px;
-    color: rgba(0, 0, 0, 1.0);
-    text-align: left;
-    line-height: 16.0px;
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 24.32%;
+  height: 16px;
+  width: 69.17%;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  font-family: "Muli", Helvetica, Arial, serif;
+  font-size: 11px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 16px;
 }
 
 .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .showpassword {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 0px;
-    height: 37px;
-    width: 37px;
-    position: absolute;
-    margin: 0;
-    left: 83px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 0px;
+  height: 37px;
+  width: 37px;
+  position: absolute;
+  margin: 0;
+  left: 83px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC .rectangle {
-    pointer-events: none;
-    background-color: rgba(0, 0, 0, 0.8);
-    right: 2.50%;
-    top: 44.59%;
-    height: 10.81%;
-    width: 26.67%;
-    position: absolute;
-    margin: 0;
-    -ms-transform: rotate(-24deg);
-    /* IE 9 */
-    -webkit-transform: rotate(-24deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(-24deg);
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  right: 2.5%;
+  top: 44.59%;
+  height: 10.81%;
+  width: 26.67%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(-24deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-24deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-24deg);
 }
 
-.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state0-to-state1 .showpassword {
-    pointer-events: auto;
+.homepagelogin-viaJ
+  .logincard-meBV
+  .showpsw-7DjC.state0-to-state1
+  .showpassword {
+  pointer-events: auto;
 }
 
 .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state1-to-state2 .rectangle {
-    transition: all 0.2s ease-in-out 0.0s;
-    opacity: 0;
+  transition: all 0.2s ease-in-out 0s;
+  opacity: 0;
 }
 
-.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state1-to-state2 .showpassword {
-    pointer-events: auto;
+.homepagelogin-viaJ
+  .logincard-meBV
+  .showpsw-7DjC.state1-to-state2
+  .showpassword {
+  pointer-events: auto;
 }
 
 .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state2-to-state1 .rectangle {
-    transition: all 0.2s ease-in-out 0.0s;
-    opacity: 1;
+  transition: all 0.2s ease-in-out 0s;
+  opacity: 1;
 }
 
-.homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state2-to-state1 .showpassword {
-    pointer-events: auto;
+.homepagelogin-viaJ
+  .logincard-meBV
+  .showpsw-7DjC.state2-to-state1
+  .showpassword {
+  pointer-events: auto;
 }
 
 .homepagelogin-viaJ .logincard-meBV .login {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    right: 40.40%;
-    bottom: 19.64%;
-    height: 54px;
-    width: 15.47%;
-    position: absolute;
-    margin: 0;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-    opacity: 0.78;
-    font-family: "Nunito-Black", Helvetica, Arial, serif;
-    font-size: 20.0px;
-    color: rgba(0, 0, 0, 1.0);
-    text-align: left;
-    line-height: 15.0px;
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  right: 40.4%;
+  bottom: 19.64%;
+  height: 54px;
+  width: 15.47%;
+  position: absolute;
+  margin: 0;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.78;
+  font-family: "Nunito-Black", Helvetica, Arial, serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 1);
+  text-align: left;
+  line-height: 15px;
 }
 
 .homepagelogin-viaJ .title1 {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 31px;
-    height: 92px;
-    width: 152px;
-    position: absolute;
-    margin: 0;
-    left: 113px;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: 31px;
+  height: 92px;
+  width: 152px;
+  position: absolute;
+  margin: 0;
+  left: 113px;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
 }
 
 .homepagelogin-viaJ .title1 .bonsi1 {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: calc(50.00% - 46px);
-    height: 91px;
-    width: 99.34%;
-    position: absolute;
-    margin: 0;
-    left: 0.33%;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-    opacity: 0.93;
-    font-family: "Nunito-Regular", Helvetica, Arial, serif;
-    font-size: 60.0px;
-    color: rgba(255, 255, 255, 1.0);
-    text-align: left;
-    line-height: 91.0px;
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: calc(50% - 46px);
+  height: 91px;
+  width: 99.34%;
+  position: absolute;
+  margin: 0;
+  left: 0.33%;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.93;
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 60px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 91px;
 }
 
 .homepagelogin-viaJ .title1 .bonsi {
-    pointer-events: none;
-    background-color: rgba(255, 255, 255, 0.0);
-    top: calc(50.00% - 46px);
-    height: 91px;
-    width: 99.34%;
-    position: absolute;
-    margin: 0;
-    left: 0.33%;
-    -ms-transform: rotate(0deg);
-    /* IE 9 */
-    -webkit-transform: rotate(0deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(0deg);
-    opacity: 0.93;
-    font-family: "Nunito-Regular", Helvetica, Arial, serif;
-    font-size: 60.0px;
-    color: rgba(255, 255, 255, 1.0);
-    text-align: left;
-    line-height: 91.0px;
+  pointer-events: none;
+  background-color: rgba(255, 255, 255, 0);
+  top: calc(50% - 46px);
+  height: 91px;
+  width: 99.34%;
+  position: absolute;
+  margin: 0;
+  left: 0.33%;
+  -ms-transform: rotate(0deg);
+  /* IE 9 */
+  -webkit-transform: rotate(0deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(0deg);
+  opacity: 0.93;
+  font-family: "Nunito-Regular", Helvetica, Arial, serif;
+  font-size: 60px;
+  color: rgba(255, 255, 255, 1);
+  text-align: left;
+  line-height: 91px;
 }
 
 .homepagelogin-viaJ.state0-to-keyframe1 .logincard-meBV {
-    transition: all 0.001s ease-in-out 0.0s;
-    top: 773px;
-    left: 11px;
+  transition: all 0.001s ease-in-out 0s;
+  top: 773px;
+  left: 11px;
 }
 
 .homepagelogin-viaJ.keyframe1-to-keyframe2 .logincard-meBV {
-    transition: all 0.5s ease-in-out 0.0s;
-    top: 314px;
+  transition: all 0.5s ease-in-out 0s;
+  top: 314px;
 }
 
 .homepagelogin-viaJ.keyframe1-to-keyframe2 .logincard-meBV .c1 {
-    transition: all 0.2s ease-in-out 0.0s;
-    top: calc(-1.21% + 6px);
-    left: -0px;
-    height: 102.43%;
+  transition: all 0.2s ease-in-out 0s;
+  top: calc(-1.21% + 6px);
+  left: -0px;
+  height: 102.43%;
 }
 
 .homepagelogin-viaJ.keyframe2-to-keyframe3 .logincard-meBV {
-    transition: all 0.2s ease-in-out 0.0s;
-    top: 330px;
+  transition: all 0.2s ease-in-out 0s;
+  top: 330px;
 }
 
 .homepagelogin-viaJ.keyframe2-to-keyframe3 .logincard-meBV .c1 {
-    transition: all 0.2s ease-in-out 0.0s;
-    top: 0px;
-    left: 0px;
-    height: 100%;
+  transition: all 0.2s ease-in-out 0s;
+  top: 0px;
+  left: 0px;
+  height: 100%;
 }
 
 .homepagelogin-viaJ.keyframe3-to-keyframe4 .logincard-meBV {
-    transition: all 0.2s ease-in-out 0.0s;
-    top: 319px;
+  transition: all 0.2s ease-in-out 0s;
+  top: 319px;
 }
 
-.homepagelogin-viaJ.state0 {}
+.homepagelogin-viaJ.state0 {
+}
 
 .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state1 .showpassword {
-    pointer-events: auto;
+  pointer-events: auto;
 }
 
 .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state2 .rectangle {
-    opacity: 0.0057;
+  opacity: 0.0057;
 }
 
 .homepagelogin-viaJ .logincard-meBV .showpsw-7DjC.state2 .showpassword {
-    pointer-events: auto;
+  pointer-events: auto;
 }
