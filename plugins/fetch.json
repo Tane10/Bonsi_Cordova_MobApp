@@ -6,5 +6,37 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-camera": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera@4.0.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-qrscanner": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-qrscanner"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-add-swift-support": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-add-swift-support"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-fingerprint-aio": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-fingerprint-aio"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

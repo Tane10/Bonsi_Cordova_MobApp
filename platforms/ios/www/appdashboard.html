@@ -1,1461 +1,176 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="./img/favicon.png" rel="shortcut icon"/>
-        <meta charset="utf-8"/>
-        <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport"/>
-        <link href="./css/appDashboard.css" rel="stylesheet" type="text/css"/>
-        <meta content="Launchpad by Anima" name="author">
-        </meta>
-    </head>
-    <body style="margin: 0;
+
+<head>
+    <link href="./img/favicon.png" rel="shortcut icon" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport" />
+    <link href="./css/appDashboard.css" rel="stylesheet" type="text/css" />
+    <meta content="Launchpad by Anima" name="author">
+    </meta>
+</head>
+<body style="margin: 0;
  background: rgba(255, 255, 255, 1.0);">
-        <input id="anPageName" name="page" type="hidden" value="appdashboard"/>
-        <style>
-            .appdashboard-cqen * {
-                box-sizing          : border-box;
-            }
-            .appdashboard-cqen {
-                pointer-events      : none;
-                overflow            : hidden;
-                width               : 100%;
-                min-width           : 375px;
-                height              : 100vh;
-                min-height          : 812px;
-                position            : relative;
-                overflow            : hidden;
-                margin              : 0px;
-                -webkit-font-smoothing: antialiased;
-                -moz-osx-font-smoothing: grayscale;
-                background-color    : rgba(255, 255, 255, 1.0);
-            }
-            .appdashboard-cqen .bgcolor {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 812px;
-                width               : 375px;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .bgcolor1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : -135px;
-                height              : 375px;
-                width               : 105px;
-                position            : absolute;
-                margin              : 0;
-                left                : 135px;
-                -ms-transform       : rotate(90deg); /* IE 9 */
-                -webkit-transform   : rotate(90deg); /* Chrome, Safari, Opera */
-                transform           : rotate(90deg);
-                opacity             : 0.47;
-            }
-            .appdashboard-cqen .topbarrec {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : -2px;
-                height              : 820px;
-                width               : 108px;
-                position            : absolute;
-                margin              : 0;
-                left                : -4px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .username {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 177px;
-                height              : auto;
-                width               : auto;
-                position            : absolute;
-                margin              : 0;
-                left                : 9px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 16.0px;
-                color               : rgba(255, 255, 255, 1.0);
-                text-align          : left;
-                line-height         : 24.0px;
-            }
-            .appdashboard-cqen .sed08512 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 354px;
-                height              : 71px;
-                width               : 71px;
-                position            : absolute;
-                margin              : 0;
-                left                : 11px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .emailenvelopelettermailmailing512 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 247px;
-                height              : 66px;
-                width               : 66px;
-                position            : absolute;
-                margin              : 0;
-                left                : 13px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .face {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 114px;
-                height              : 68px;
-                width               : 70px;
-                position            : absolute;
-                margin              : 0;
-                left                : 13px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .a17576200 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 468px;
-                height              : 59px;
-                width               : 58px;
-                position            : absolute;
-                margin              : 0;
-                left                : 17px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .logo {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 26px;
-                height              : 124px;
-                width               : 175px;
-                position            : absolute;
-                margin              : 0;
-                left                : 172px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .logo .bonsi {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : calc(50.00% - 62px);
-                height              : 124px;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                opacity             : 0.93;
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 40.0px;
-                color               : rgba(255, 255, 255, 1.0);
-                text-align          : left;
-                line-height         : 60.0px;
-            }
-            .appdashboard-cqen .bonsilogo {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 15px;
-                height              : 85px;
-                width               : 102px;
-                position            : absolute;
-                margin              : 0;
-                left                : 2px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                opacity             : 0.9;
-            }
-            .appdashboard-cqen .rectangle {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 484px;
-                height              : 197px;
-                width               : 298px;
-                position            : absolute;
-                margin              : 0;
-                left                : 84px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 471px;
-                height              : 191px;
-                width               : 260px;
-                position            : absolute;
-                margin              : 0;
-                left                : 106px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .rectangle1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 0px;
-                height              : 83.25%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 3.14%;
-                height              : 80.10%;
-                width               : 98.08%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0.96%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 .a12 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 0px;
-                height              : 51.63%;
-                width               : 60.00%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 .a12 .rectangle7 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 .a12 .room4 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 54px;
-                height              : 22px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 26px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 14.0px;
-                color               : rgba(37, 38, 94, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.3px;
-                line-height         : 22.0px;
-            }
-            .appdashboard-cqen .freerooms .group31 .a12 .a1000amu20141030am1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 6.33%;
-                height              : 34px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 16.99%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 11.0px;
-                color               : rgba(120, 120, 147, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.28px;
-                line-height         : 17.0px;
-            }
-            .appdashboard-cqen .freerooms .group31 .a12 .rectangle8 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 3.80%;
-                height              : 88.61%;
-                width               : 1.96%;
-                position            : absolute;
-                margin              : 0;
-                left                : 2.61%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                right               : 0px;
-                bottom              : 0px;
-                height              : 51.63%;
-                width               : 60.00%;
-                position            : absolute;
-                margin              : 0;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock .rectangle7 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock .room4 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 54px;
-                height              : 22px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 26px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 14.0px;
-                color               : rgba(37, 38, 94, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.3px;
-                line-height         : 22.0px;
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock .a1000amu20141030am1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 7.59%;
-                height              : 34px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 16.99%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 11.0px;
-                color               : rgba(120, 120, 147, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.28px;
-                line-height         : 17.0px;
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock .rectangle8 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 3.80%;
-                height              : 88.61%;
-                width               : 1.96%;
-                position            : absolute;
-                margin              : 0;
-                left                : 2.61%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0.65%;
-                height              : 51.63%;
-                width               : 60.00%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock1 .rectangle7 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock1 .room4 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 54px;
-                height              : 22px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 26px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 14.0px;
-                color               : rgba(37, 38, 94, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.3px;
-                line-height         : 22.0px;
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock1 .a1000amu20141030am1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 7.59%;
-                height              : 34px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 16.99%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 11.0px;
-                color               : rgba(120, 120, 147, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.28px;
-                line-height         : 17.0px;
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock1 .rectangle8 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 3.80%;
-                height              : 88.61%;
-                width               : 1.96%;
-                position            : absolute;
-                margin              : 0;
-                left                : 2.61%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock2 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                right               : 0px;
-                top                 : 0.65%;
-                height              : 51.63%;
-                width               : 60.00%;
-                position            : absolute;
-                margin              : 0;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock2 .rectangle7 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock2 .room4 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 54px;
-                height              : 22px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 26px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 14.0px;
-                color               : rgba(37, 38, 94, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.3px;
-                line-height         : 22.0px;
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock2 .a1000amu20141030am1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 6.33%;
-                height              : 34px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 16.99%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 11.0px;
-                color               : rgba(120, 120, 147, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.28px;
-                line-height         : 17.0px;
-            }
-            .appdashboard-cqen .freerooms .group31 .meetingroomblock2 .rectangle8 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 3.80%;
-                height              : 88.61%;
-                width               : 1.96%;
-                position            : absolute;
-                margin              : 0;
-                left                : 2.61%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .group31 .rectangle11 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms .freeroom {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 48px;
-                width               : 33.85%;
-                position            : absolute;
-                margin              : 0;
-                left                : 1.54%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 16.0px;
-                color               : rgba(255, 255, 255, 1.0);
-                text-align          : left;
-                line-height         : 24.0px;
-            }
-            .appdashboard-cqen .freerooms1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 258px;
-                height              : 191px;
-                width               : 260px;
-                position            : absolute;
-                margin              : 0;
-                left                : 109px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .rectangle1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 0px;
-                height              : 83.25%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 3.14%;
-                height              : 80.10%;
-                width               : 98.08%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0.96%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 .a12 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 0px;
-                height              : 51.63%;
-                width               : 60.00%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 .a12 .rectangle7 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 .a12 .room4 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 54px;
-                height              : 22px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 26px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 14.0px;
-                color               : rgba(37, 38, 94, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.3px;
-                line-height         : 22.0px;
-            }
-            .appdashboard-cqen .freerooms1 .group31 .a12 .a1000amu20141030am1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 6.33%;
-                height              : 34px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 16.99%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 11.0px;
-                color               : rgba(120, 120, 147, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.28px;
-                line-height         : 17.0px;
-            }
-            .appdashboard-cqen .freerooms1 .group31 .a12 .rectangle8 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 3.80%;
-                height              : 88.61%;
-                width               : 1.96%;
-                position            : absolute;
-                margin              : 0;
-                left                : 2.61%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                right               : 0px;
-                bottom              : 0px;
-                height              : 51.63%;
-                width               : 60.00%;
-                position            : absolute;
-                margin              : 0;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock .rectangle7 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock .room4 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 54px;
-                height              : 22px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 26px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 14.0px;
-                color               : rgba(37, 38, 94, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.3px;
-                line-height         : 22.0px;
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock .a1000amu20141030am1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 7.59%;
-                height              : 34px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 16.99%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 11.0px;
-                color               : rgba(120, 120, 147, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.28px;
-                line-height         : 17.0px;
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock .rectangle8 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 3.80%;
-                height              : 88.61%;
-                width               : 1.96%;
-                position            : absolute;
-                margin              : 0;
-                left                : 2.61%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0.65%;
-                height              : 51.63%;
-                width               : 60.00%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock1 .rectangle7 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock1 .room4 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 54px;
-                height              : 22px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 26px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 14.0px;
-                color               : rgba(37, 38, 94, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.3px;
-                line-height         : 22.0px;
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock1 .a1000amu20141030am1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 7.59%;
-                height              : 34px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 16.99%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 11.0px;
-                color               : rgba(120, 120, 147, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.28px;
-                line-height         : 17.0px;
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock1 .rectangle8 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 3.80%;
-                height              : 88.61%;
-                width               : 1.96%;
-                position            : absolute;
-                margin              : 0;
-                left                : 2.61%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock2 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                right               : 0px;
-                top                 : 0.65%;
-                height              : 51.63%;
-                width               : 60.00%;
-                position            : absolute;
-                margin              : 0;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock2 .rectangle7 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock2 .room4 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 54px;
-                height              : 22px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 26px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 14.0px;
-                color               : rgba(37, 38, 94, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.3px;
-                line-height         : 22.0px;
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock2 .a1000amu20141030am1 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                bottom              : 6.33%;
-                height              : 34px;
-                width               : 46.41%;
-                position            : absolute;
-                margin              : 0;
-                left                : 16.99%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 11.0px;
-                color               : rgba(120, 120, 147, 1.0);
-                text-align          : left;
-                letter-spacing      : 0.28px;
-                line-height         : 17.0px;
-            }
-            .appdashboard-cqen .freerooms1 .group31 .meetingroomblock2 .rectangle8 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 3.80%;
-                height              : 88.61%;
-                width               : 1.96%;
-                position            : absolute;
-                margin              : 0;
-                left                : 2.61%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .group31 .rectangle11 {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 100%;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .freerooms1 .freeroom {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 0px;
-                height              : 48px;
-                width               : 33.85%;
-                position            : absolute;
-                margin              : 0;
-                left                : 1.54%;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 16.0px;
-                color               : rgba(255, 255, 255, 1.0);
-                text-align          : left;
-                line-height         : 24.0px;
-            }
-            .appdashboard-cqen .a1333door512 {
-                pointer-events      : auto;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 727px;
-                height              : 60px;
-                width               : 60px;
-                position            : absolute;
-                margin              : 0;
-                left                : 16px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .membershipbar {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 189px;
-                height              : 35px;
-                width               : 231px;
-                position            : absolute;
-                margin              : 0;
-                left                : 116px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .membershipbar .redbar {
-                pointer-events      : none;
-                background-color    : rgba(222, 31, 31, 1.0);
-                top                 : 0px;
-                height              : 100%;
-                box-sizing          : border-box;
-                width               : 100%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0px;
-                border-radius       : 17px;
-                border-style        : solid;
-                border-width        : 1px;
-                border-color        : rgba(0, 0, 0, 1.0);
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                opacity             : 0.79;
-            }
-            .appdashboard-cqen .membershipbar .greenbar {
-                pointer-events      : none;
-                background-color    : rgba(0, 130, 22, 1.0);
-                top                 : 2.86%;
-                height              : 94.29%;
-                width               : 79.22%;
-                position            : absolute;
-                margin              : 0;
-                left                : 0.43%;
-                border-radius       : 16px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-            }
-            .appdashboard-cqen .membershipleft {
-                pointer-events      : none;
-                background-color    : rgba(255,255,255,0.0);
-                top                 : 159px;
-                height              : auto;
-                width               : auto;
-                position            : absolute;
-                margin              : 0;
-                left                : 123px;
-                -ms-transform       : rotate(0deg); /* IE 9 */
-                -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
-                transform           : rotate(0deg);
-                font-family         : "Nunito-Regular", Helvetica, Arial, serif;
-                font-size           : 16.0px;
-                color               : rgba(255, 255, 255, 1.0);
-                text-align          : left;
-                line-height         : 24.0px;
-            }
-            .appdashboard-cqen.state0-to-state1 .bonsilogo {
-                pointer-events      : auto;
-            }
-            .appdashboard-cqen.state1-to-state2 .bgcolor1 {
-                transition          : all 0.4s ease-in-out 0.0s;
-                top                 : 2px;
-                left                : -2px;
-                height              : 102px;
-            }
-            .appdashboard-cqen.state1-to-state2 .sed08512 {
-                transition          : all 0.4s ease-in-out 0.0s;
-                opacity             : 0;
-            }
-            .appdashboard-cqen.state1-to-state2 .emailenvelopelettermailmailing512 {
-                transition          : all 0.4s ease-in-out 0.0s;
-                opacity             : 0;
-            }
-            .appdashboard-cqen.state1-to-state2 .face {
-                transition          : all 0.4s ease-in-out 0.0s;
-                opacity             : 0;
-                top                 : 119px;
-                height              : 63px;
-            }
-            .appdashboard-cqen.state1-to-state2 .a17576200 {
-                transition          : all 0.4s ease-in-out 0.0s;
-                opacity             : 0;
-            }
-            .appdashboard-cqen.state1-to-state2 .username {
-                transition          : all 0.4s ease-in-out 0.0s;
-                opacity             : 0;
-            }
-            .appdashboard-cqen.state1-to-state2 .topbarrec {
-                transition          : all 0.4s ease-in-out 0.0s;
-                height              : 105px;
-            }
-            .appdashboard-cqen.state1-to-state2 .bonsilogo {
-                pointer-events      : none;
-            }
-            .appdashboard-cqen.state0 {
-                
-            }
-            .appdashboard-cqen.state1 .bonsilogo {
-                pointer-events      : auto;
-            }
-            .appdashboard-cqen.state2 .a17576200 {
-                opacity             : 0.0028;
-            }
-            .appdashboard-cqen.state2 .username {
-                opacity             : 0.0036;
-            }
-            .appdashboard-cqen.state2 .emailenvelopelettermailmailing512 {
-                opacity             : 0.0094;
-            }
-            .appdashboard-cqen.state2 .face {
-                opacity             : 0.0020;
-            }
-            .appdashboard-cqen.state2 .sed08512 {
-                opacity             : 0.0041;
-            }
-            .appdashboard-cqen.state2 .bonsilogo {
-                pointer-events      : none;
-            }
-        </style>
-        <div id="tI5TjtQ">
-            <div class="appdashboard appdashboard-cqen component state1" data-initial-state="state1">
-                <div style="width: 375px; height: 100%; position:relative; margin:auto;">
-                    <img class="bgcolor" src="./img/user-verfication-bgcolor.png">
-                        <img class="bgcolor1" src="./img/app-dashboard-bgcolor-1.png">
-                            <img class="topbarrec" src="./img/app-dashboard-top-bar-rec.png">
-                                <div class="username">
-                                    John Doe
-                                </div>
-                                <img class="sed08512" src="./img/app-dashboard-sed-08-512@2x.png">
-                                    <img class="emailenvelopelettermailmailing512" src="./img/app-dashboard-email-envelope-letter-mail-mailing-512@2x.png">
-                                        <img class="face" src="./img/app-dashboard-face@2x.png">
-                                            <img class="a17576200" src="./img/app-dashboard-17576-200@2x.png">
-                                                <div class="logo">
-                                                    <div class="bonsi">
-                                                        Bonsi
-                                                    </div>
-                                                </div>
-                                                <img class="bonsilogo" src="./img/app-dashboard-bonsi-logo@2x.png">
-                                                    <img class="rectangle" src="./img/app-dashboard-rectangle@2x.png">
-                                                        <div class="freerooms">
-                                                            <img class="rectangle1" src="./img/app-dashboard-gray-back-drop-1@2x.png">
-                                                                <div class="group31">
-                                                                    <div class="a12">
-                                                                        <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
-                                                                            <div class="room4">
-                                                                                Room 5
-                                                                            </div>
-                                                                            <div class="a1000amu20141030am1">
-                                                                                13:00 AM — 14:00 AM
-                                                                            </div>
-                                                                            <img class="rectangle8" src="./img/app-dashboard-aviablity@2x.png"/>
-                                                                        </img>
-                                                                    </div>
-                                                                    <div class="meetingroomblock">
-                                                                        <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
-                                                                            <div class="room4">
-                                                                                Room 6
-                                                                            </div>
-                                                                            <div class="a1000amu20141030am1">
-                                                                                10:00 AM — 10:30 AM
-                                                                            </div>
-                                                                            <img class="rectangle8" src="./img/app-dashboard-aviablity@2x.png"/>
-                                                                        </img>
-                                                                    </div>
-                                                                    <div class="meetingroomblock1">
-                                                                        <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
-                                                                            <div class="room4">
-                                                                                Room 2
-                                                                            </div>
-                                                                            <div class="a1000amu20141030am1">
-                                                                                08:00 AM — 08:30 AM
-                                                                            </div>
-                                                                            <img class="rectangle8" src="./img/app-dashboard-aviablity@2x.png"/>
-                                                                        </img>
-                                                                    </div>
-                                                                    <div class="meetingroomblock2">
-                                                                        <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
-                                                                            <div class="room4">
-                                                                                Room 2
-                                                                            </div>
-                                                                            <div class="a1000amu20141030am1">
-                                                                                09:00 AM — 09:30 AM
-                                                                            </div>
-                                                                            <img class="rectangle8" src="./img/app-dashboard-aviablity@2x.png"/>
-                                                                        </img>
-                                                                    </div>
-                                                                    <img class="rectangle11" src="./img/app-dashboard-gray-edgy-1@2x.png"/>
-                                                                </div>
-                                                                <div class="freeroom">
-                                                                    Free Rooms
-                                                                    <br/>
-                                                                </div>
-                                                            </img>
-                                                        </div>
-                                                        <div class="freerooms1">
-                                                            <img class="rectangle1" src="./img/app-dashboard-gray-back-drop-1@2x.png">
-                                                                <div class="group31">
-                                                                    <div class="a12">
-                                                                        <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
-                                                                            <div class="room4">
-                                                                                Room 4
-                                                                            </div>
-                                                                            <div class="a1000amu20141030am1">
-                                                                                13:00 AM — 14:00 AM
-                                                                            </div>
-                                                                            <img class="rectangle8" src="./img/app-dashboard-aviablity-7@2x.png"/>
-                                                                        </img>
-                                                                    </div>
-                                                                    <div class="meetingroomblock">
-                                                                        <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
-                                                                            <div class="room4">
-                                                                                Room 3
-                                                                            </div>
-                                                                            <div class="a1000amu20141030am1">
-                                                                                10:00 AM — 10:30 AM
-                                                                            </div>
-                                                                            <img class="rectangle8" src="./img/app-dashboard-aviablity-7@2x.png"/>
-                                                                        </img>
-                                                                    </div>
-                                                                    <div class="meetingroomblock1">
-                                                                        <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
-                                                                            <div class="room4">
-                                                                                Room 4
-                                                                            </div>
-                                                                            <div class="a1000amu20141030am1">
-                                                                                08:00 AM — 08:30 AM
-                                                                            </div>
-                                                                            <img class="rectangle8" src="./img/app-dashboard-aviablity-7@2x.png"/>
-                                                                        </img>
-                                                                    </div>
-                                                                    <div class="meetingroomblock2">
-                                                                        <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
-                                                                            <div class="room4">
-                                                                                Room 3
-                                                                            </div>
-                                                                            <div class="a1000amu20141030am1">
-                                                                                09:00 AM — 09:30 AM
-                                                                            </div>
-                                                                            <img class="rectangle8" src="./img/app-dashboard-aviablity-7@2x.png"/>
-                                                                        </img>
-                                                                    </div>
-                                                                    <img class="rectangle11" src="./img/app-dashboard-gray-edgy-1@2x.png"/>
-                                                                </div>
-                                                                <div class="freeroom">
-                                                                    Free Rooms
-                                                                    <br/>
-                                                                </div>
-                                                            </img>
-                                                        </div>
-                                                        <a href="homepagelogin.html">
-                                                            <img class="a1333door512" src="./img/app-dashboard-1333door-512@2x.png"/>
-                                                        </a>
-                                                        <div class="membershipbar">
-                                                            <div class="redbar">
-                                                            </div>
-                                                            <div class="greenbar">
-                                                            </div>
-                                                        </div>
-                                                        <div class="membershipleft">
-                                                            Membership Left
-                                                        </div>
-                                                    </img>
-                                                </img>
-                                            </img>
-                                        </img>
-                                    </img>
-                                </img>
+    <input id="anPageName" name="page" type="hidden" value="appdashboard" />
+    <div id="tI5TjtQ">
+        <div class="appdashboard component state1" data-initial-state="state1">
+            <div style="width: 375px; height: 100%; position:relative; margin:auto;">
+                <img class="bgcolor" src="./img/user-verfication-bgcolor.png">
+                <img class="bgcolor1" src="./img/app-dashboard-bgcolor-1.png">
+                <img class="topbarrec" src="./img/app-dashboard-top-bar-rec.png">
+                <div class="username">
+                    John Doe
+                </div>
+                <img class="sed08512" src="./img/app-dashboard-sed-08-512@2x.png">
+                <img class="emailenvelopelettermailmailing512"
+                    src="./img/app-dashboard-email-envelope-letter-mail-mailing-512@2x.png">
+                <img class="face" src="./img/app-dashboard-face@2x.png">
+                <img class="a17576200" src="./img/app-dashboard-17576-200@2x.png">
+                <div class="logo">
+                    <div class="bonsi">
+                        Bonsi
+                    </div>
+                </div>
+                <img class="bonsilogo" src="./img/app-dashboard-bonsi-logo@2x.png">
+                <img class="rectangle" src="./img/app-dashboard-rectangle@2x.png">
+                <div class="freerooms">
+                    <img class="rectangle1" src="./img/app-dashboard-gray-back-drop-1@2x.png">
+                    <div class="group31">
+                        <div class="a12">
+                            <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
+                            <div class="room4">
+                                Room 5
+                            </div>
+                            <div class="a1000amu20141030am1">
+                                13:00 AM — 14:00 AM
+                            </div>
+                            <img class="rectangle8" src="./img/app-dashboard-aviablity@2x.png" />
                             </img>
-                        </img>
+                        </div>
+                        <div class="meetingroomblock">
+                            <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
+                            <div class="room4">
+                                Room 6
+                            </div>
+                            <div class="a1000amu20141030am1">
+                                10:00 AM — 10:30 AM
+                            </div>
+                            <img class="rectangle8" src="./img/app-dashboard-aviablity@2x.png" />
+                            </img>
+                        </div>
+                        <div class="meetingroomblock1">
+                            <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
+                            <div class="room4">
+                                Room 2
+                            </div>
+                            <div class="a1000amu20141030am1">
+                                08:00 AM — 08:30 AM
+                            </div>
+                            <img class="rectangle8" src="./img/app-dashboard-aviablity@2x.png" />
+                            </img>
+                        </div>
+                        <div class="meetingroomblock2">
+                            <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
+                            <div class="room4">
+                                Room 2
+                            </div>
+                            <div class="a1000amu20141030am1">
+                                09:00 AM — 09:30 AM
+                            </div>
+                            <img class="rectangle8" src="./img/app-dashboard-aviablity@2x.png" />
+                            </img>
+                        </div>
+                        <img class="rectangle11" src="./img/app-dashboard-gray-edgy-1@2x.png" />
+                    </div>
+                    <div class="freeroom">
+                        Free Rooms
+                        <br />
+                    </div>
                     </img>
                 </div>
+                <div class="freerooms1">
+                    <img class="rectangle1" src="./img/app-dashboard-gray-back-drop-1@2x.png">
+                    <div class="group31">
+                        <div class="a12">
+                            <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
+                            <div class="room4">
+                                Room 4
+                            </div>
+                            <div class="a1000amu20141030am1">
+                                13:00 AM — 14:00 AM
+                            </div>
+                            <img class="rectangle8" src="./img/app-dashboard-aviablity-7@2x.png" />
+                            </img>
+                        </div>
+                        <div class="meetingroomblock">
+                            <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
+                            <div class="room4">
+                                Room 3
+                            </div>
+                            <div class="a1000amu20141030am1">
+                                10:00 AM — 10:30 AM
+                            </div>
+                            <img class="rectangle8" src="./img/app-dashboard-aviablity-7@2x.png" />
+                            </img>
+                        </div>
+                        <div class="meetingroomblock1">
+                            <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
+                            <div class="room4">
+                                Room 4
+                            </div>
+                            <div class="a1000amu20141030am1">
+                                08:00 AM — 08:30 AM
+                            </div>
+                            <img class="rectangle8" src="./img/app-dashboard-aviablity-7@2x.png" />
+                            </img>
+                        </div>
+                        <div class="meetingroomblock2">
+                            <img class="rectangle7" src="./img/app-dashboard-white-card@2x.png">
+                            <div class="room4">
+                                Room 3
+                            </div>
+                            <div class="a1000amu20141030am1">
+                                09:00 AM — 09:30 AM
+                            </div>
+                            <img class="rectangle8" src="./img/app-dashboard-aviablity-7@2x.png" />
+                            </img>
+                        </div>
+                        <img class="rectangle11" src="./img/app-dashboard-gray-edgy-1@2x.png" />
+                    </div>
+                    <div class="freeroom">
+                        Free Rooms
+                        <br />
+                    </div>
+                    </img>
+                </div>
+                <a href="homepagelogin.html">
+                    <img class="a1333door512" src="./img/app-dashboard-1333door-512@2x.png" />
+                </a>
+                <div class="membershipbar">
+                    <div class="redbar">
+                    </div>
+                    <div class="greenbar">
+                    </div>
+                </div>
+                <div class="membershipleft">
+                    Membership Left
+                </div>
+                </img>
+                </img>
+                </img>
+                </img>
+                </img>
+                </img>
+                </img>
+                </img>
+                </img>
             </div>
         </div>
-        <script>
-            if (typeof String.prototype.endsWith !== 'function') {
-                String.prototype.endsWith = function(suffix) {
-                    return this.indexOf(suffix, this.length - suffix.length) !== -1;
-                };
-            }
-            if (!String.prototype.startsWith) {
-                String.prototype.startsWith = function(searchString, position) {
-                    position = position || 0;
-                    return this.indexOf(searchString, position) === position;
-                };
-            }
-            if (!Array.prototype.forEach) {
-                Array.prototype.forEach = function(callback) {
-                    var T, k;
-                    if (this == null) {
-                        throw new TypeError('this is null or not defined');
-                    }
-                    var O = Object(this);
-                    var len = O.length >>> 0;
-                    if (typeof callback !== 'function') {
-                        throw new TypeError(callback + ' is not a function');
-                    }
-                    if (arguments.length > 1) {
-                        T = arguments[1];
-                    }
-                    k = 0;
-                    while (k < len) {
-                        var kValue;
-                        if (k in O) {
-                            kValue = O[k];
-                            callback.call(T, kValue, k, O);
-                        }
-                        k++;
-                    }
-                };
-            }
-            function toArray(obj) {
-                var array = [];
-                for (var i = obj.length >>> 0; i--; ) {
-                    array[i] = obj[i];
-                }
-                return array;
-            }
-            function addClass(object, className) {
-                object.classList ? object.classList.add(className) : object.className += ' ' + className;
-            }
-            function removeAllClassesButFirst(component, skipClass) {
-                var classList = component.classList;
-                var componentClass = classList.item(0);
-                var toRemove = [];
-                var beforeComponent = true;
-                toArray(classList).forEach(function(className) {
-                    beforeComponent = beforeComponent && className != 'component';
-                    if (className != skipClass && className != componentClass && className != 'component' && !beforeComponent) {
-                        toRemove.push(className);
-                    }
-                });
-                toRemove.forEach(function(className) {
-                    classList.remove(className);
-                });
-            }
-            function applyState(component, stateClass) {
-                var componentClass = component.classList.item(0);
-                component.className = componentClass;
-                component.classList.add(stateClass);
-            }
-            function isCurrentState(component, state) {
-                var classList = component.classList;
-                var rv = false;
-                toArray(classList).forEach(function(className) {
-                    if (className.endsWith(state)) {
-                        rv = true;
-                    }
-                });
-                return rv;
-            }
-            function whichTransitionEvent() {
-                var t, el = document.createElement("fakeelement");
-                var transitions = {
-                    "transition": "transitionend",
-                    "OTransition": "oTransitionEnd",
-                    "MozTransition": "transitionend",
-                    "WebkitTransition": "webkitTransitionEnd"
-                };
-                for (t in transitions) {
-                    if (el.style[t] !== undefined) {
-                        return transitions[t];
-                    }
-                }
-            }
-            var transitionEvent = whichTransitionEvent();
-            function clickappDashboardcqentI5TjtQ1Handler(event) {
-                var component = document.querySelector('.appdashboard-cqen');
-                if (isCurrentState(component, 'state1')) {
-                    try {
-                        setTimeout(function() {
-                            var component = document.querySelector('.appdashboard-cqen');
-                            component.addEventListener(transitionEvent, transitionappDashboardcqentI5TjtQstate1tostate2EndedHandler);
-                            removeAllClassesButFirst(component, 'state1-to-state2');
-                            addClass(component, 'state2');
-                            addClass(component, 'state1-to-state2');
-                        }, 0);
-                    } catch (e) {
-                        console.log(e);
-                    }
-                }
-            }
-            function transitionappDashboardcqentI5TjtQstate1tostate2EndedHandler(event) {
-                if (event.target.className.trim() == 'topbarrec' || event.target.className.startsWith('topbarrec ')) {
-                    var component = document.querySelector('.appdashboard-cqen');
-                    component.removeEventListener(transitionEvent, transitionappDashboardcqentI5TjtQstate1tostate2EndedHandler);
-                }
-            }
-            child = document.querySelector('.appdashboard-cqen .bonsilogo');
-            if (child) {
-                child.addEventListener('click', clickappDashboardcqentI5TjtQ1Handler);
-                child.style['cursor'] = 'pointer';
-            } else {
-                console.log('Could not find element at: .appdashboard-cqen .bonsilogo');
-            }
-            function resetappDashboardcqentI5TjtQ() {
-                var component = document.querySelector('.appdashboard-cqen');
-                if (!component) {
-                    return;
-                }
-                component.addEventListener(transitionEvent, transitionappDashboardcqentI5TjtQstate1tostate2EndedHandler);
-                removeAllClassesButFirst(component, 'state1-to-state2');
-                addClass(component, 'state2');
-                addClass(component, 'state1-to-state2');
-            }
-        </script>
-        <!-- Scripts -->
-        <script>
-            anima_isHidden = function(e) {
-                if (!(e instanceof HTMLElement)) return !1;
-                if (getComputedStyle(e).display == "none") return !0; else if (e.parentNode && anima_isHidden(e.parentNode)) return !0;
-                return !1;
-            };
-            anima_loadAsyncSrcForTag = function(tag) {
-                var elements = document.getElementsByTagName(tag);
-                var toLoad = [];
-                for (var i = 0; i < elements.length; i++) {
-                    var e = elements[i];
-                    var src = e.getAttribute("src");
-                    var loaded = (src != undefined && src.length > 0 && src != 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
-                    if (loaded) continue;
-                    var asyncSrc = e.getAttribute("anima-src");
-                    if (asyncSrc == undefined || asyncSrc.length == 0) continue;
-                    if (anima_isHidden(e)) continue;
-                    toLoad.push(e);
-                }
-                toLoad.sort(function(a, b) {
-                    return anima_getTop(a) - anima_getTop(b);
-                });
-                for (var i = 0; i < toLoad.length; i++) {
-                    var e = toLoad[i];
-                    var asyncSrc = e.getAttribute("anima-src");
-                    e.setAttribute("src", asyncSrc);
-                }
-            };
-            anima_pauseHiddenVideos = function(tag) {
-                var elements = document.getElementsByTagName("video");
-                for (var i = 0; i < elements.length; i++) {
-                    var e = elements[i];
-                    var isPlaying = !!(e.currentTime > 0 && !e.paused && !e.ended && e.readyState > 2);
-                    var isHidden = anima_isHidden(e);
-                    if (!isPlaying && !isHidden && e.getAttribute("autoplay") == "autoplay") {
-                        e.play();
-                    } else if (isPlaying && isHidden) {
-                        e.pause();
-                    }
-                }
-            };
-            anima_loadAsyncSrc = function(tag) {
-                anima_loadAsyncSrcForTag("img");
-                anima_loadAsyncSrcForTag("iframe");
-                anima_loadAsyncSrcForTag("video");
-                anima_pauseHiddenVideos();
-            };
-            var anima_getTop = function(e) {
-                var top = 0;
-                do {
-                    top += e.offsetTop || 0;
-                    e = e.offsetParent;
-                } while (e);
-                return top;
-            };
-            anima_loadAsyncSrc();
-            anima_old_onResize = window.onresize;
-            anima_new_onResize = undefined;
-            anima_updateOnResize = function() {
-                if (anima_new_onResize == undefined || window.onresize != anima_new_onResize) {
-                    anima_new_onResize = function(x) {
-                        if (anima_old_onResize != undefined) anima_old_onResize(x);
-                        anima_loadAsyncSrc();
-                    };
-                    window.onresize = anima_new_onResize;
-                    setTimeout(function() {
-                        anima_updateOnResize();
-                    }, 3000);
-                }
-            };
-            anima_updateOnResize();
-            setTimeout(function() {
-                anima_loadAsyncSrc();
-            }, 200);
-        </script>
-        <!-- End of Scripts -->
-    </body>
+    </div>
+    <!-- Scripts -->
+   <script async src="./js/appdashboard.js"></script>
+   <script async src="./js/appdashboardAnimation.js"></script>
+    <!-- End of Scripts -->
+</body>
+
 </html>
