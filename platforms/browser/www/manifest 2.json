@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Bonsi",
+  "short_name": "Bonsi",
+  "version": "io.cordova.hellocordova",
+  "description": "A small prototype app that will be using cobot API.",
+  "author": "Apache Cordova Team",
+  "icons": [],
+  "start_url": "homepagelogin.html"
+}
