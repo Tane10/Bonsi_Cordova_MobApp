@@ -2,13 +2,17 @@
 <html>
 
 <head>
-    <link href="./img/favicon.png" rel="shortcut icon" />
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport" />
     <link href="./css/homepageLogin.css" rel="stylesheet" type="text/css" />
-    <meta content="Launchpad by Anima" name="author">
     </meta>
 </head>
+
 <body style="margin: 0;
  background: rgba(255, 255, 255, 1.0);">
     <input id="anPageName" name="page" type="hidden" value="homepagelogin" />
@@ -87,7 +91,7 @@
     </div>
     <!-- Scripts -->
     <script async src="./js/homepagelogin.js"></script>
-    <script async src="./js/homepageloginAnimation.js"></script>
+   <!-- <script async src="./js/homepageloginAnimation.js"></script>-->
     <!-- End of Scripts -->
 </body>
 

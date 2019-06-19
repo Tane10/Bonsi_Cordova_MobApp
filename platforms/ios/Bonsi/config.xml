@@ -22,20 +22,20 @@
     <feature name="Camera">
         <param name="ios-package" value="CDVCamera" />
     </feature>
-    <feature name="QRScanner">
-        <param name="ios-package" value="QRScanner" />
-    </feature>
     <feature name="Fingerprint">
         <param name="ios-package" value="Fingerprint" />
     </feature>
-    <name>HelloCordova</name>
+    <feature name="QRScanner">
+        <param name="ios-package" value="QRScanner" />
+    </feature>
+    <name>Bonsi</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A small prototype app that will be using cobot API.
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
-    <content src="index.html" />
+    <content src="homepagelogin.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
